@@ -1,0 +1,45 @@
+fastapi
+uvicorn[standard]
+pydantic
+colorama
+rich
+mysql-connector-python
+pymysql
+cryptography
+pymongo
+chromadb
+google-generativeai
+openai
+python-dotenv
+docx2txt
+python-multipart
+typing-extensions
+dataclasses-json
+websockets
+aiofiles
+redis
+celery
+pydantic-settings
+
+# Database & ORM
+sqlalchemy>=2.0.23
+alembic>=1.13.1
+
+# Additional LLM APIs
+anthropic>=0.8.1
+groq>=0.4.1
+
+# Security & Authentication
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+
+# Vector Database & Embeddings
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# Async & Caching
+asyncpg>=0.29.0
+asyncio-mqtt>=0.16.1
+aioredis>=2.0.1

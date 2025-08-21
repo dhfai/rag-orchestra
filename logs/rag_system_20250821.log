@@ -1,0 +1,996 @@
+[2025-08-21 04:51:09] [INFO] [MainApplication] Starting RAG Multi-Strategy System
+[2025-08-21 04:51:09] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 04:51:09] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 04:51:09] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 04:51:09] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 04:51:09] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 04:51:09] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 04:51:09] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 04:51:09] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 04:51:09] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 04:51:09] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 04:51:09] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 04:51:09] [INFO] [MainApplication] RAG Multi-Strategy System initialized
+[2025-08-21 04:51:09] [INFO] [MainApplication] STEP: Application Start - Memulai sistem RAG Multi-Strategy
+[2025-08-21 04:51:09] [INFO] [MainApplication] STEP: User Input Collection - Mengumpulkan data input dari pengguna
+[2025-08-21 04:51:09] [INFO] [UserInterface] STEP: Input Collection - Mengumpulkan data dari pengguna
+[2025-08-21 04:51:16] [ERROR] [MainApplication] Error collecting user input: 
+[2025-08-21 04:51:16] [ERROR] [UserInterface] Gagal mengumpulkan input pengguna
+[2025-08-21 04:51:16] [ERROR] [MainApplication] Error dalam aplikasi: 
+[2025-08-21 04:51:16] [ERROR] [UserInterface] Terjadi kesalahan: 
+[2025-08-21 04:51:16] [CRITICAL] [MainApplication] Critical error in main application: 
+[2025-08-21 04:53:29] [INFO] [MainApplication] Starting RAG Multi-Strategy System
+[2025-08-21 04:53:29] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 04:53:29] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 04:53:29] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 04:53:29] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 04:53:29] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 04:53:29] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 04:53:29] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 04:53:29] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 04:53:29] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 04:53:29] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 04:53:29] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 04:53:29] [INFO] [MainApplication] RAG Multi-Strategy System initialized
+[2025-08-21 04:53:29] [INFO] [MainApplication] STEP: Application Start - Memulai sistem RAG Multi-Strategy
+[2025-08-21 04:53:29] [INFO] [MainApplication] STEP: User Input Collection - Mengumpulkan data input dari pengguna
+[2025-08-21 04:53:29] [INFO] [UserInterface] STEP: Input Collection - Mengumpulkan data dari pengguna
+[2025-08-21 04:54:41] [INFO] [UserInterface] USER INTERACTION: Input collected: Matematika - Bilangan Bulat - Kelas 1 SD
+[2025-08-21 04:54:41] [INFO] [UserInterface] STEP: Input Summary - Menampilkan ringkasan input
+[2025-08-21 04:54:41] [INFO] [MainApplication] USER INTERACTION: Input collected: Matematika - Bilangan Bulat
+[2025-08-21 04:54:41] [INFO] [MainApplication] STEP: Orchestrator Processing - Memproses melalui Main Orchestrator
+[2025-08-21 04:54:41] [INFO] [MainApplication] ORCHESTRATOR [Main]: CP/ATP tidak tersedia, memulai generation process
+[2025-08-21 04:54:41] [INFO] [MainApplication] STEP: CP/ATP Generation Flow - Memulai alur generation dan validasi CP/ATP
+[2025-08-21 04:54:41] [INFO] [MainApplication] ORCHESTRATOR [Main]: CP/ATP Generation Iteration 1
+[2025-08-21 04:54:41] [INFO] [UserInterface] PROGRESS START: Generating CP dan ATP
+[2025-08-21 04:54:41] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Starting request processing
+[2025-08-21 04:54:41] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Processing: Matematika - Bilangan Bulat
+[2025-08-21 04:54:41] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Analyzing task complexity and requirements
+[2025-08-21 04:54:41] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Task analysis result: simple complexity, strategy: simple, missing: ['CP', 'ATP']
+[2025-08-21 04:54:41] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Task analysis completed - Complexity: simple
+[2025-08-21 04:54:41] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Strategy selection based on complexity: simple
+[2025-08-21 04:54:41] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Strategy selected: simple
+[2025-08-21 04:54:41] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: CP/ATP not provided, initiating generation process
+[2025-08-21 04:54:41] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Starting CP/ATP generation process
+[2025-08-21 04:54:41] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: CP/ATP generation iteration 1
+[2025-08-21 04:54:41] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Starting CP/ATP generation with simple strategy
+[2025-08-21 04:54:41] [INFO] [CPATPOrchestrator] RAG [Simple] : Using Simple RAG for direct template retrieval
+[2025-08-21 04:54:41] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Generating Capaian Pembelajaran (CP)
+[2025-08-21 04:54:41] [INFO] [CPATPOrchestrator] RAG : Starting CP generation process
+[2025-08-21 04:54:41] [INFO] [SimpleRAG] RAG [Simple] : Retrieving documents for query: Capaian Pembelajaran untuk mata pelajaran Matemati...
+[2025-08-21 04:54:41] [INFO] [SimpleRAG] RAG [Simple] : Retrieved 5 documents
+[2025-08-21 04:54:41] [INFO] [SimpleRAG] RAG [Simple] : Generating cp content using Simple RAG
+[2025-08-21 04:54:41] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 04:54:42] [INFO] [SimpleRAG] RAG [Simple] : Content generated successfully (length: 1542 chars)
+[2025-08-21 04:54:42] [INFO] [CPATPOrchestrator] RAG : CP generated successfully (length: 1542 chars)
+[2025-08-21 04:54:42] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Generating Alur Tujuan Pembelajaran (ATP)
+[2025-08-21 04:54:42] [INFO] [CPATPOrchestrator] RAG : Starting ATP generation process
+[2025-08-21 04:54:42] [INFO] [SimpleRAG] RAG [Simple] : Retrieving documents for query: Alur Tujuan Pembelajaran untuk mata pelajaran Mate...
+[2025-08-21 04:54:42] [INFO] [SimpleRAG] RAG [Simple] : Retrieved 5 documents
+[2025-08-21 04:54:42] [INFO] [SimpleRAG] RAG [Simple] : Generating atp content using Simple RAG
+[2025-08-21 04:54:42] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 04:54:43] [INFO] [SimpleRAG] RAG [Simple] : Content generated successfully (length: 1543 chars)
+[2025-08-21 04:54:43] [INFO] [CPATPOrchestrator] RAG : ATP generated successfully (length: 1543 chars)
+[2025-08-21 04:54:43] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP generation completed with confidence: 0.80
+[2025-08-21 04:54:43] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: CP/ATP approved by user
+[2025-08-21 04:54:43] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Creating final input object
+[2025-08-21 04:54:43] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Final input created successfully
+[2025-08-21 04:54:43] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Request processing completed successfully
+[2025-08-21 04:54:43] [INFO] [UserInterface] STEP: CP/ATP Display - Menampilkan hasil generasi CP dan ATP
+[2025-08-21 04:54:43] [INFO] [MainApplication] STEP: User Validation - Meminta validasi user untuk CP/ATP
+[2025-08-21 04:54:43] [INFO] [UserInterface] STEP: User Validation - Meminta validasi dari pengguna
+[2025-08-21 04:55:00] [INFO] [UserInterface] USER INTERACTION: Validation result: Approved
+[2025-08-21 04:55:00] [INFO] [MainApplication] USER INTERACTION: Validation: Approved
+[2025-08-21 04:55:00] [INFO] [MainApplication] SUCCESS: CP/ATP disetujui oleh user
+[2025-08-21 04:55:00] [INFO] [MainApplication] STEP: Final Input Display - Menampilkan hasil final untuk tahap selanjutnya
+[2025-08-21 04:55:00] [INFO] [UserInterface] STEP: Final Input Display - Menampilkan input final
+[2025-08-21 04:55:00] [INFO] [UserInterface] SUCCESS: Final input berhasil diproses dan siap untuk tahap selanjutnya!
+[2025-08-21 04:55:00] [INFO] [MainApplication] SUCCESS: Final Input berhasil ditampilkan
+[2025-08-21 04:55:00] [INFO] [MainApplication] Sistem siap untuk tahap selanjutnya (modul ajar generation)
+[2025-08-21 04:55:00] [INFO] [MainApplication] Final input ready untuk tahap modul ajar generation
+[2025-08-21 04:55:00] [DEBUG] [MainApplication] Final input contains: CP (1542 chars), ATP (1543 chars)
+[2025-08-21 04:55:00] [INFO] [MainApplication] SUCCESS: Sistem berhasil menyelesaikan proses hingga Final Input
+[2025-08-21 06:14:00] [INFO] [BackendServer] Starting RAG Multi-Strategy Backend Server...
+[2025-08-21 06:14:00] [INFO] [BackendServer] Host: 127.0.0.1
+[2025-08-21 06:14:00] [INFO] [BackendServer] Port: 8000
+[2025-08-21 06:14:00] [INFO] [BackendServer] Workers: 1
+[2025-08-21 06:14:00] [INFO] [BackendServer] Reload: True
+[2025-08-21 06:14:00] [INFO] [BackendServer] Log Level: debug
+[2025-08-21 06:14:02] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:14:02] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:14:02] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:14:02] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:14:02] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:14:02] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:14:02] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:14:02] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:14:02] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:14:02] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:14:02] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:14:02] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:14:02] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:14:02] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:14:02] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:14:02] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:14:02] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:14:02] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:14:02] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:14:02] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:14:02] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:14:02] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:14:02] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:14:02] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:14:02] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:14:42] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:14:42] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:14:42] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:14:42] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:14:42] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:14:42] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:14:42] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:14:42] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:14:42] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:14:42] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:14:42] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:14:42] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:14:42] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:14:42] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:14:42] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:14:42] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:14:42] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:14:42] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:14:42] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:14:42] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:14:42] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:14:42] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:14:42] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:14:42] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:14:42] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:14:42] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:14:42] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:14:50] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 06:14:50] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 06:14:52] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:14:52] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:14:52] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:14:52] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:14:52] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:14:52] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:14:52] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:14:52] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:14:52] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:14:52] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:14:52] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:14:52] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:14:52] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:14:52] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:14:52] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:14:52] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:14:52] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:14:52] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:14:52] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:14:52] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:14:52] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:14:52] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:14:52] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:14:52] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:14:52] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:14:52] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:14:52] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:15:05] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 06:15:05] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 06:15:06] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:15:06] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:15:06] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:15:06] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:15:06] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:15:06] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:15:06] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:15:06] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:15:06] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:15:06] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:15:06] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:15:06] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:15:06] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:15:06] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:15:06] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:15:06] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:15:06] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:15:06] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:15:06] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:15:06] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:15:06] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:15:06] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:15:06] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:15:06] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:15:06] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:15:06] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:15:06] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:16:10] [ERROR] [FastAPI-App] Unhandled exception: 'SessionManager' object has no attribute 'get_stats'
+[2025-08-21 06:16:23] [ERROR] [FastAPI-App] Unhandled exception: 'SessionManager' object has no attribute 'get_stats'
+[2025-08-21 06:17:06] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 06:17:06] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 06:17:07] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:17:07] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:17:07] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:17:07] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:17:07] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:17:07] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:17:07] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:17:07] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:17:07] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:17:07] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:17:07] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:17:07] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:17:07] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:17:07] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:17:07] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:17:07] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:17:07] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:17:07] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:17:07] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:17:07] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:17:07] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:17:07] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:17:07] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:17:07] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:17:07] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:17:07] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:17:07] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:17:54] [INFO] [BackendServer] Starting RAG Multi-Strategy Backend Server...
+[2025-08-21 06:17:54] [INFO] [BackendServer] Host: 127.0.0.1
+[2025-08-21 06:17:54] [INFO] [BackendServer] Port: 8000
+[2025-08-21 06:17:54] [INFO] [BackendServer] Workers: 1
+[2025-08-21 06:17:54] [INFO] [BackendServer] Reload: True
+[2025-08-21 06:17:54] [INFO] [BackendServer] Log Level: info
+[2025-08-21 06:17:55] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:17:55] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:17:55] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:17:55] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:17:55] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:17:55] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:17:55] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:17:55] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:17:55] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:17:55] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:17:55] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:17:55] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:17:55] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:17:55] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:17:55] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:17:55] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:17:55] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:17:55] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:17:55] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:17:55] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:17:55] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:17:55] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:17:55] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:17:55] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:17:55] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:17:55] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:17:55] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:18:33] [ERROR] [FastAPI-App] Unhandled exception: 'SessionManager' object has no attribute 'list_sessions'
+[2025-08-21 06:19:29] [INFO] [BackendServer] Starting RAG Multi-Strategy Backend Server...
+[2025-08-21 06:19:29] [INFO] [BackendServer] Host: 127.0.0.1
+[2025-08-21 06:19:29] [INFO] [BackendServer] Port: 8000
+[2025-08-21 06:19:29] [INFO] [BackendServer] Workers: 1
+[2025-08-21 06:19:29] [INFO] [BackendServer] Reload: True
+[2025-08-21 06:19:29] [INFO] [BackendServer] Log Level: info
+[2025-08-21 06:19:30] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:19:30] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:19:30] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:19:30] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:19:30] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:19:30] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:19:30] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:19:30] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:19:30] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:19:30] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:19:30] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:19:30] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:19:30] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:19:30] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:19:30] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:19:30] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:19:30] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:19:30] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:19:30] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:19:30] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:19:30] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:19:30] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:19:30] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:19:30] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:19:30] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:19:30] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:19:30] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:20:33] [INFO] [BackendServer] Starting RAG Multi-Strategy Backend Server...
+[2025-08-21 06:20:33] [INFO] [BackendServer] Host: 127.0.0.1
+[2025-08-21 06:20:33] [INFO] [BackendServer] Port: 8000
+[2025-08-21 06:20:33] [INFO] [BackendServer] Workers: 1
+[2025-08-21 06:20:33] [INFO] [BackendServer] Reload: True
+[2025-08-21 06:20:33] [INFO] [BackendServer] Log Level: debug
+[2025-08-21 06:20:34] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:20:34] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:20:34] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:20:34] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:20:34] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:20:34] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:20:34] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:20:34] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:20:34] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:20:34] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:20:34] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:20:34] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:20:34] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:20:34] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:20:34] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:20:34] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:20:34] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:20:34] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:20:34] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:20:34] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:20:34] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:20:34] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:20:34] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:20:34] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:20:34] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:20:34] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:20:34] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:22:13] [ERROR] [FastAPI-App] Error creating session: 'coroutine' object has no attribute 'session_id'
+[2025-08-21 06:23:03] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 06:23:03] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 06:23:04] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:23:04] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:23:04] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:23:04] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:23:04] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:23:04] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:23:04] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:23:04] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:23:04] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:23:04] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:23:04] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:23:04] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:23:04] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:23:04] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:23:04] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:23:04] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:23:04] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:23:04] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:23:04] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:23:04] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:23:04] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:23:04] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:23:04] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:23:04] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:23:04] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:23:04] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:23:04] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:23:21] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 06:23:21] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 06:23:22] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:23:23] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:23:23] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:23:23] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:23:23] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:23:23] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:23:23] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:23:23] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:23:23] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:23:23] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:23:23] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:23:23] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:23:23] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:23:23] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:23:23] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:23:23] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:23:23] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:23:23] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:23:23] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:23:23] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:23:23] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:23:23] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:23:23] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:23:23] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:23:23] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:23:23] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:23:23] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:23:48] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 06:23:48] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 06:23:49] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:23:49] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:23:49] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:23:49] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:23:49] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:23:49] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:23:49] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:23:49] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:23:49] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:23:49] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:23:49] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:23:49] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:23:49] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:23:49] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:23:49] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:23:49] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:23:49] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:23:49] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:23:49] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:23:49] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:23:49] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:23:49] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:23:49] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:23:49] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:23:49] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:23:49] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:23:49] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:24:24] [INFO] [SessionManager] SUCCESS: Session created: rag-319c5829a7fc for user: None
+[2025-08-21 06:24:24] [INFO] [FastAPI-App] New session created: rag-319c5829a7fc
+[2025-08-21 06:24:26] [ERROR] [FastAPI-App] Unhandled exception: 'SessionState' object has no attribute 'last_activity'
+[2025-08-21 06:24:28] [ERROR] [FastAPI-App] Unhandled exception: 'SessionState' object has no attribute 'last_activity'
+[2025-08-21 06:25:22] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 06:25:22] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 06:25:23] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:25:23] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:25:23] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:25:23] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:25:23] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:25:23] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:25:23] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:25:23] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:25:23] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:25:23] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:25:23] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:25:23] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:25:23] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:25:23] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:25:23] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:25:23] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:25:23] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:25:23] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:25:23] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:25:23] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:25:23] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:25:23] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:25:23] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:25:23] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:25:23] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:25:23] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:25:23] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:25:28] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 06:25:28] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 06:25:29] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:25:29] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:25:29] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:25:29] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:25:29] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:25:29] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:25:29] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:25:29] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:25:29] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:25:29] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:25:29] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:25:29] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:25:29] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:25:29] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:25:29] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:25:29] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:25:29] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:25:29] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:25:29] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:25:29] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:25:29] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:25:29] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:25:29] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:25:29] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:25:29] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:25:29] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:25:29] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:26:34] [INFO] [SessionManager] SUCCESS: Session created: rag-e64645504f85 for user: None
+[2025-08-21 06:26:34] [INFO] [FastAPI-App] New session created: rag-e64645504f85
+[2025-08-21 06:31:24] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 06:31:24] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 06:31:26] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:31:26] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:31:26] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:31:26] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:31:26] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:31:26] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:31:26] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:31:26] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:31:26] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:31:26] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:31:26] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:31:26] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:31:26] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:31:26] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:31:26] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:31:26] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:31:26] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:31:26] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:31:26] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:31:26] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:31:26] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:31:26] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:31:26] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:31:26] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:31:26] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:31:26] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:31:26] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:33:46] [INFO] [SessionManager] SUCCESS: Session created: rag-4e20c82096db for user: test_user_123
+[2025-08-21 06:33:47] [INFO] [FastAPI-App] New session created: rag-4e20c82096db
+[2025-08-21 06:40:27] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 06:40:27] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 06:41:02] [INFO] [BackendServer] Starting RAG Multi-Strategy Backend Server...
+[2025-08-21 06:41:02] [INFO] [BackendServer] Host: 127.0.0.1
+[2025-08-21 06:41:02] [INFO] [BackendServer] Port: 8000
+[2025-08-21 06:41:02] [INFO] [BackendServer] Workers: 1
+[2025-08-21 06:41:02] [INFO] [BackendServer] Reload: True
+[2025-08-21 06:41:02] [INFO] [BackendServer] Log Level: debug
+[2025-08-21 06:41:03] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:41:03] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:41:03] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:41:03] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:41:03] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:41:03] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:41:03] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:41:03] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:41:03] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:41:03] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:41:03] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:41:03] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:41:03] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:41:03] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:41:03] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:41:03] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:41:03] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:41:03] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:41:03] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:41:03] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:41:03] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:41:03] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:41:03] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:41:03] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:41:03] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:41:03] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:41:03] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:41:52] [INFO] [SessionManager] SUCCESS: Session created: rag-51e0aa8999d8 for user: None
+[2025-08-21 06:41:52] [INFO] [FastAPI-App] New session created: rag-51e0aa8999d8
+[2025-08-21 06:41:54] [INFO] [SessionManager] Session rag-51e0aa8999d8 status updated: input_collection - User input received
+[2025-08-21 06:41:54] [INFO] [SessionManager] User input set for session rag-51e0aa8999d8
+[2025-08-21 06:41:54] [INFO] [RAGProcessingService] Processing started for session: rag-51e0aa8999d8
+[2025-08-21 06:41:54] [INFO] [FastAPI-App] User input submitted and processing started for session: rag-51e0aa8999d8
+[2025-08-21 06:41:54] [INFO] [SessionManager] Session rag-51e0aa8999d8 status updated: processing - Starting task analysis
+[2025-08-21 06:41:55] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Analyzing task complexity and requirements
+[2025-08-21 06:41:55] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Task analysis result: medium complexity, strategy: advanced, missing: ['ATP']
+[2025-08-21 06:41:55] [INFO] [RAGProcessingService] Task analysis completed: medium complexity
+[2025-08-21 06:41:55] [INFO] [SessionManager] Session rag-51e0aa8999d8 status updated: processing - Task analysis completed
+[2025-08-21 06:41:55] [INFO] [RAGProcessingService] CP/ATP generation needed for session: rag-51e0aa8999d8
+[2025-08-21 06:41:55] [INFO] [SessionManager] Session rag-51e0aa8999d8 status updated: cp_atp_generation - Generating CP/ATP
+[2025-08-21 06:41:55] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Starting CP/ATP generation with advanced strategy
+[2025-08-21 06:41:55] [ERROR] [CPATPOrchestrator] Error in CP/ATP generation: Unknown RAG strategy: RAGStrategyEnum.ADVANCED
+[2025-08-21 06:41:55] [ERROR] [RAGProcessingService] Error processing session rag-51e0aa8999d8: Unknown RAG strategy: RAGStrategyEnum.ADVANCED
+[2025-08-21 06:41:55] [INFO] [SessionManager] Session rag-51e0aa8999d8 status updated: error - Error: Unknown RAG strategy: RAGStrategyEnum.ADVANCED
+[2025-08-21 06:41:55] [ERROR] [RAGProcessingService] Processing error for session rag-51e0aa8999d8: Unknown RAG strategy: RAGStrategyEnum.ADVANCED
+[2025-08-21 06:46:52] [INFO] [SessionManager] Session rag-51e0aa8999d8 status updated: input_collection - User input received
+[2025-08-21 06:46:52] [INFO] [SessionManager] User input set for session rag-51e0aa8999d8
+[2025-08-21 06:46:52] [INFO] [RAGProcessingService] Processing started for session: rag-51e0aa8999d8
+[2025-08-21 06:46:52] [INFO] [FastAPI-App] User input submitted and processing started for session: rag-51e0aa8999d8
+[2025-08-21 06:46:52] [INFO] [SessionManager] Session rag-51e0aa8999d8 status updated: processing - Starting task analysis
+[2025-08-21 06:46:53] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Analyzing task complexity and requirements
+[2025-08-21 06:46:53] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Task analysis result: medium complexity, strategy: advanced, missing: ['ATP']
+[2025-08-21 06:46:53] [INFO] [RAGProcessingService] Task analysis completed: medium complexity
+[2025-08-21 06:46:53] [INFO] [SessionManager] Session rag-51e0aa8999d8 status updated: processing - Task analysis completed
+[2025-08-21 06:46:53] [INFO] [RAGProcessingService] CP/ATP generation needed for session: rag-51e0aa8999d8
+[2025-08-21 06:46:53] [INFO] [SessionManager] Session rag-51e0aa8999d8 status updated: cp_atp_generation - Generating CP/ATP
+[2025-08-21 06:46:53] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Starting CP/ATP generation with advanced strategy
+[2025-08-21 06:46:53] [ERROR] [CPATPOrchestrator] Error in CP/ATP generation: Unknown RAG strategy: RAGStrategyEnum.ADVANCED
+[2025-08-21 06:46:53] [ERROR] [RAGProcessingService] Error processing session rag-51e0aa8999d8: Unknown RAG strategy: RAGStrategyEnum.ADVANCED
+[2025-08-21 06:46:53] [INFO] [SessionManager] Session rag-51e0aa8999d8 status updated: error - Error: Unknown RAG strategy: RAGStrategyEnum.ADVANCED
+[2025-08-21 06:46:53] [ERROR] [RAGProcessingService] Processing error for session rag-51e0aa8999d8: Unknown RAG strategy: RAGStrategyEnum.ADVANCED
+[2025-08-21 06:49:04] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 06:49:04] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 06:49:05] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:49:05] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:49:05] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:49:05] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:49:05] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:49:05] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:49:06] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:49:06] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:49:06] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:49:06] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:49:06] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:49:06] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:49:06] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:49:06] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:49:06] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:49:06] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:49:06] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:49:06] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:49:06] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:49:06] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:49:06] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:49:06] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:49:06] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:49:06] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:49:06] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:49:06] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:49:06] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:51:03] [INFO] [SessionManager] SUCCESS: Session created: rag-4e069b6a8ef3 for user: None
+[2025-08-21 06:51:03] [INFO] [FastAPI-App] New session created: rag-4e069b6a8ef3
+[2025-08-21 06:51:05] [INFO] [SessionManager] Session rag-4e069b6a8ef3 status updated: input_collection - User input received
+[2025-08-21 06:51:05] [INFO] [SessionManager] User input set for session rag-4e069b6a8ef3
+[2025-08-21 06:51:05] [INFO] [RAGProcessingService] Processing started for session: rag-4e069b6a8ef3
+[2025-08-21 06:51:05] [INFO] [FastAPI-App] User input submitted and processing started for session: rag-4e069b6a8ef3
+[2025-08-21 06:51:05] [INFO] [SessionManager] Session rag-4e069b6a8ef3 status updated: processing - Starting task analysis
+[2025-08-21 06:51:06] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Analyzing task complexity and requirements
+[2025-08-21 06:51:06] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Task analysis result: medium complexity, strategy: advanced, missing: ['ATP']
+[2025-08-21 06:51:06] [INFO] [RAGProcessingService] Task analysis completed: medium complexity
+[2025-08-21 06:51:06] [INFO] [SessionManager] Session rag-4e069b6a8ef3 status updated: processing - Task analysis completed
+[2025-08-21 06:51:06] [INFO] [RAGProcessingService] CP/ATP generation needed for session: rag-4e069b6a8ef3
+[2025-08-21 06:51:06] [INFO] [SessionManager] Session rag-4e069b6a8ef3 status updated: cp_atp_generation - Generating CP/ATP
+[2025-08-21 06:51:06] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Starting CP/ATP generation with advanced strategy
+[2025-08-21 06:51:06] [INFO] [CPATPOrchestrator] RAG [Advanced] : Using Advanced RAG with query rewriting and reranking
+[2025-08-21 06:51:06] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Generating Capaian Pembelajaran (CP)
+[2025-08-21 06:51:06] [INFO] [CPATPOrchestrator] RAG : Starting CP generation process
+[2025-08-21 06:51:06] [INFO] [AdvancedRAG] RAG [Advanced] : Starting advanced retrieval for: Capaian Pembelajaran untuk mata pelajaran Matemati...
+[2025-08-21 06:51:06] [INFO] [AdvancedRAG] RAG [Advanced] : Generated 5 expanded queries
+[2025-08-21 06:51:06] [INFO] [AdvancedRAG] RAG [Advanced] : Found 50 unique candidate documents
+[2025-08-21 06:51:06] [INFO] [AdvancedRAG] RAG [Advanced] : Retrieved 5 reranked documents
+[2025-08-21 06:51:06] [INFO] [AdvancedRAG] RAG [Advanced] : Generating cp content using Advanced RAG
+[2025-08-21 06:51:06] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 06:51:07] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 1
+[2025-08-21 06:51:07] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 06:51:08] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 2
+[2025-08-21 06:51:08] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 06:51:09] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced content generated (length: 2391 chars)
+[2025-08-21 06:51:09] [INFO] [CPATPOrchestrator] RAG : CP generated successfully (length: 2391 chars)
+[2025-08-21 06:51:09] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Generating Alur Tujuan Pembelajaran (ATP)
+[2025-08-21 06:51:09] [INFO] [CPATPOrchestrator] RAG : Starting ATP generation process
+[2025-08-21 06:51:09] [INFO] [AdvancedRAG] RAG [Advanced] : Starting advanced retrieval for: Alur Tujuan Pembelajaran untuk mata pelajaran Mate...
+[2025-08-21 06:51:09] [INFO] [AdvancedRAG] RAG [Advanced] : Generated 5 expanded queries
+[2025-08-21 06:51:09] [INFO] [AdvancedRAG] RAG [Advanced] : Found 50 unique candidate documents
+[2025-08-21 06:51:09] [INFO] [AdvancedRAG] RAG [Advanced] : Retrieved 5 reranked documents
+[2025-08-21 06:51:09] [INFO] [AdvancedRAG] RAG [Advanced] : Generating atp content using Advanced RAG
+[2025-08-21 06:51:09] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 06:51:10] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 1
+[2025-08-21 06:51:10] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 06:51:11] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 2
+[2025-08-21 06:51:11] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 06:51:12] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced content generated (length: 2361 chars)
+[2025-08-21 06:51:12] [INFO] [CPATPOrchestrator] RAG : ATP generated successfully (length: 2361 chars)
+[2025-08-21 06:51:12] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP generation completed with confidence: 0.90
+[2025-08-21 06:51:12] [INFO] [RAGProcessingService] SUCCESS: CP/ATP generated for session: rag-4e069b6a8ef3
+[2025-08-21 06:51:12] [INFO] [SessionManager] Session rag-4e069b6a8ef3 status updated: cp_atp_generation - CP/ATP generated
+[2025-08-21 06:51:12] [INFO] [SessionManager] Session rag-4e069b6a8ef3 status updated: user_validation - Waiting for user validation
+[2025-08-21 06:53:33] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 06:53:33] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 06:53:34] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:53:34] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:53:34] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:53:34] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:53:34] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:53:34] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:53:34] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:53:34] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:53:34] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:53:34] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:53:34] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:53:34] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:53:34] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:53:34] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:53:34] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:53:34] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:53:34] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:53:34] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:53:34] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:53:34] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:53:34] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:53:34] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:53:34] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:53:34] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:53:34] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:53:34] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:53:34] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:53:52] [INFO] [SessionManager] SUCCESS: Session created: rag-a949d509693c for user: None
+[2025-08-21 06:53:52] [INFO] [FastAPI-App] New session created: rag-a949d509693c
+[2025-08-21 06:54:18] [INFO] [SessionManager] Session rag-a949d509693c status updated: input_collection - User input received
+[2025-08-21 06:54:18] [INFO] [SessionManager] User input set for session rag-a949d509693c
+[2025-08-21 06:54:18] [INFO] [RAGProcessingService] Processing started for session: rag-a949d509693c
+[2025-08-21 06:54:18] [INFO] [FastAPI-App] User input submitted and processing started for session: rag-a949d509693c
+[2025-08-21 06:54:18] [INFO] [SessionManager] Session rag-a949d509693c status updated: processing - Starting task analysis
+[2025-08-21 06:54:19] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Analyzing task complexity and requirements
+[2025-08-21 06:54:19] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Task analysis result: medium complexity, strategy: advanced, missing: ['ATP']
+[2025-08-21 06:54:19] [INFO] [RAGProcessingService] Task analysis completed: medium complexity
+[2025-08-21 06:54:19] [INFO] [SessionManager] Session rag-a949d509693c status updated: processing - Task analysis completed
+[2025-08-21 06:54:19] [INFO] [RAGProcessingService] CP/ATP generation needed for session: rag-a949d509693c
+[2025-08-21 06:54:19] [INFO] [SessionManager] Session rag-a949d509693c status updated: cp_atp_generation - Generating CP/ATP
+[2025-08-21 06:54:19] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Starting CP/ATP generation with advanced strategy
+[2025-08-21 06:54:19] [INFO] [CPATPOrchestrator] RAG [Advanced] : Using Advanced RAG with query rewriting and reranking
+[2025-08-21 06:54:19] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Generating Capaian Pembelajaran (CP)
+[2025-08-21 06:54:19] [INFO] [CPATPOrchestrator] RAG : Starting CP generation process
+[2025-08-21 06:54:19] [INFO] [AdvancedRAG] RAG [Advanced] : Starting advanced retrieval for: Capaian Pembelajaran untuk mata pelajaran Matemati...
+[2025-08-21 06:54:19] [INFO] [AdvancedRAG] RAG [Advanced] : Generated 5 expanded queries
+[2025-08-21 06:54:19] [INFO] [AdvancedRAG] RAG [Advanced] : Found 50 unique candidate documents
+[2025-08-21 06:54:19] [INFO] [AdvancedRAG] RAG [Advanced] : Retrieved 5 reranked documents
+[2025-08-21 06:54:19] [INFO] [AdvancedRAG] RAG [Advanced] : Generating cp content using Advanced RAG
+[2025-08-21 06:54:19] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 06:54:20] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 1
+[2025-08-21 06:54:20] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 06:54:21] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 2
+[2025-08-21 06:54:21] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 06:54:22] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced content generated (length: 2415 chars)
+[2025-08-21 06:54:22] [INFO] [CPATPOrchestrator] RAG : CP generated successfully (length: 2415 chars)
+[2025-08-21 06:54:22] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Generating Alur Tujuan Pembelajaran (ATP)
+[2025-08-21 06:54:22] [INFO] [CPATPOrchestrator] RAG : Starting ATP generation process
+[2025-08-21 06:54:22] [INFO] [AdvancedRAG] RAG [Advanced] : Starting advanced retrieval for: Alur Tujuan Pembelajaran untuk mata pelajaran Mate...
+[2025-08-21 06:54:22] [INFO] [AdvancedRAG] RAG [Advanced] : Generated 5 expanded queries
+[2025-08-21 06:54:22] [INFO] [AdvancedRAG] RAG [Advanced] : Found 50 unique candidate documents
+[2025-08-21 06:54:22] [INFO] [AdvancedRAG] RAG [Advanced] : Retrieved 5 reranked documents
+[2025-08-21 06:54:22] [INFO] [AdvancedRAG] RAG [Advanced] : Generating atp content using Advanced RAG
+[2025-08-21 06:54:22] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 06:54:23] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 1
+[2025-08-21 06:54:23] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 06:54:24] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 2
+[2025-08-21 06:54:24] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 06:54:25] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced content generated (length: 2385 chars)
+[2025-08-21 06:54:25] [INFO] [CPATPOrchestrator] RAG : ATP generated successfully (length: 2385 chars)
+[2025-08-21 06:54:25] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP generation completed with confidence: 0.90
+[2025-08-21 06:54:25] [INFO] [RAGProcessingService] SUCCESS: CP/ATP generated for session: rag-a949d509693c
+[2025-08-21 06:54:25] [INFO] [SessionManager] Session rag-a949d509693c status updated: cp_atp_generation - CP/ATP generated
+[2025-08-21 06:54:25] [INFO] [SessionManager] Session rag-a949d509693c status updated: user_validation - Waiting for user validation
+[2025-08-21 06:56:53] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 06:56:53] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 06:56:54] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:56:54] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:56:54] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:56:54] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:56:54] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:56:54] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:56:54] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:56:54] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:56:54] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:56:54] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:56:54] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:56:54] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:56:54] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:56:54] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:56:54] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:56:54] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:56:54] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:56:54] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:56:54] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:56:54] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:56:54] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:56:54] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:56:54] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:56:54] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:56:54] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:56:54] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:56:54] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 06:57:56] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 06:57:56] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 06:59:06] [INFO] [BackendServer] Starting RAG Multi-Strategy Backend Server...
+[2025-08-21 06:59:06] [INFO] [BackendServer] Host: 127.0.0.1
+[2025-08-21 06:59:06] [INFO] [BackendServer] Port: 8000
+[2025-08-21 06:59:06] [INFO] [BackendServer] Workers: 1
+[2025-08-21 06:59:06] [INFO] [BackendServer] Reload: True
+[2025-08-21 06:59:06] [INFO] [BackendServer] Log Level: debug
+[2025-08-21 06:59:07] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 06:59:07] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 06:59:07] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 06:59:07] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:59:07] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:59:07] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:59:07] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:59:07] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:59:07] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:59:07] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:59:07] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:59:07] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:59:07] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:59:07] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 06:59:07] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 06:59:07] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 06:59:07] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 06:59:07] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 06:59:07] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 06:59:07] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 06:59:07] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 06:59:07] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 06:59:07] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 06:59:07] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 06:59:07] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 06:59:07] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 06:59:07] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 07:01:05] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 07:01:05] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 07:01:06] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 07:01:06] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 07:01:06] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 07:01:06] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 07:01:06] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 07:01:06] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 07:01:06] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 07:01:06] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 07:01:06] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 07:01:06] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 07:01:06] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 07:01:06] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 07:01:06] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 07:01:06] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 07:01:06] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 07:01:06] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 07:01:06] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 07:01:06] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 07:01:06] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 07:01:06] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 07:01:06] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 07:01:06] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 07:01:06] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 07:01:06] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 07:01:06] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 07:01:06] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 07:01:06] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 07:03:19] [INFO] [SessionManager] SUCCESS: Session created: rag-cf7ba5c93725 for user: test_user_123
+[2025-08-21 07:03:19] [INFO] [FastAPI-App] New session created: rag-cf7ba5c93725
+[2025-08-21 07:03:36] [INFO] [SessionManager] Session rag-cf7ba5c93725 status updated: input_collection - User input received
+[2025-08-21 07:03:36] [INFO] [SessionManager] User input set for session rag-cf7ba5c93725
+[2025-08-21 07:03:36] [INFO] [RAGProcessingService] Processing started for session: rag-cf7ba5c93725
+[2025-08-21 07:03:36] [INFO] [FastAPI-App] User input submitted and processing started for session: rag-cf7ba5c93725
+[2025-08-21 07:03:36] [INFO] [SessionManager] Session rag-cf7ba5c93725 status updated: processing - Starting task analysis
+[2025-08-21 07:03:37] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Analyzing task complexity and requirements
+[2025-08-21 07:03:37] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Task analysis result: medium complexity, strategy: advanced, missing: ['ATP']
+[2025-08-21 07:03:37] [INFO] [RAGProcessingService] Task analysis completed: medium complexity
+[2025-08-21 07:03:37] [INFO] [SessionManager] Session rag-cf7ba5c93725 status updated: processing - Task analysis completed
+[2025-08-21 07:03:37] [INFO] [RAGProcessingService] CP/ATP generation needed for session: rag-cf7ba5c93725
+[2025-08-21 07:03:37] [INFO] [SessionManager] Session rag-cf7ba5c93725 status updated: cp_atp_generation - Generating CP/ATP
+[2025-08-21 07:03:37] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Starting CP/ATP generation with advanced strategy
+[2025-08-21 07:03:37] [INFO] [CPATPOrchestrator] RAG [Advanced] : Using Advanced RAG with query rewriting and reranking
+[2025-08-21 07:03:37] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Generating Capaian Pembelajaran (CP)
+[2025-08-21 07:03:37] [INFO] [CPATPOrchestrator] RAG : Starting CP generation process
+[2025-08-21 07:03:37] [INFO] [AdvancedRAG] RAG [Advanced] : Starting advanced retrieval for: Capaian Pembelajaran untuk mata pelajaran Matemati...
+[2025-08-21 07:03:37] [INFO] [AdvancedRAG] RAG [Advanced] : Generated 5 expanded queries
+[2025-08-21 07:03:37] [INFO] [AdvancedRAG] RAG [Advanced] : Found 50 unique candidate documents
+[2025-08-21 07:03:37] [INFO] [AdvancedRAG] RAG [Advanced] : Retrieved 5 reranked documents
+[2025-08-21 07:03:37] [INFO] [AdvancedRAG] RAG [Advanced] : Generating cp content using Advanced RAG
+[2025-08-21 07:03:37] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 07:03:38] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 1
+[2025-08-21 07:03:38] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 07:03:40] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 2
+[2025-08-21 07:03:40] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 07:03:41] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced content generated (length: 2415 chars)
+[2025-08-21 07:03:41] [INFO] [CPATPOrchestrator] RAG : CP generated successfully (length: 2415 chars)
+[2025-08-21 07:03:41] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Generating Alur Tujuan Pembelajaran (ATP)
+[2025-08-21 07:03:41] [INFO] [CPATPOrchestrator] RAG : Starting ATP generation process
+[2025-08-21 07:03:41] [INFO] [AdvancedRAG] RAG [Advanced] : Starting advanced retrieval for: Alur Tujuan Pembelajaran untuk mata pelajaran Mate...
+[2025-08-21 07:03:41] [INFO] [AdvancedRAG] RAG [Advanced] : Generated 5 expanded queries
+[2025-08-21 07:03:41] [INFO] [AdvancedRAG] RAG [Advanced] : Found 50 unique candidate documents
+[2025-08-21 07:03:41] [INFO] [AdvancedRAG] RAG [Advanced] : Retrieved 5 reranked documents
+[2025-08-21 07:03:41] [INFO] [AdvancedRAG] RAG [Advanced] : Generating atp content using Advanced RAG
+[2025-08-21 07:03:41] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 07:03:42] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 1
+[2025-08-21 07:03:42] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 07:03:43] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 2
+[2025-08-21 07:03:43] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 07:03:44] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced content generated (length: 2385 chars)
+[2025-08-21 07:03:44] [INFO] [CPATPOrchestrator] RAG : ATP generated successfully (length: 2385 chars)
+[2025-08-21 07:03:44] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP generation completed with confidence: 0.90
+[2025-08-21 07:03:44] [INFO] [RAGProcessingService] SUCCESS: CP/ATP generated for session: rag-cf7ba5c93725
+[2025-08-21 07:03:44] [INFO] [SessionManager] Session rag-cf7ba5c93725 status updated: cp_atp_generation - CP/ATP generated
+[2025-08-21 07:03:44] [INFO] [SessionManager] Session rag-cf7ba5c93725 status updated: user_validation - Waiting for user validation
+[2025-08-21 07:03:53] [ERROR] [FastAPI-App] Unhandled exception: 'CPATPResponse' object has no attribute 'generated_cp'
+[2025-08-21 07:04:34] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 07:04:34] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 07:04:35] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 07:04:35] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 07:04:35] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 07:04:35] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 07:04:35] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 07:04:35] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 07:04:35] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 07:04:35] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 07:04:35] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 07:04:35] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 07:04:35] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 07:04:35] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 07:04:35] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 07:04:35] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 07:04:35] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 07:04:35] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 07:04:35] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 07:04:35] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 07:04:35] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 07:04:35] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 07:04:35] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 07:04:35] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 07:04:35] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 07:04:35] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 07:04:35] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 07:04:35] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 07:04:35] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 07:07:59] [INFO] [FastAPI-App] Shutting down RAG Multi-Strategy Backend...
+[2025-08-21 07:07:59] [INFO] [RAGProcessingService] RAG Processing Service shutdown completed
+[2025-08-21 07:08:00] [INFO] [FastAPI-App] Starting RAG Multi-Strategy Backend...
+[2025-08-21 07:08:00] [INFO] [SessionManager] Session Manager initialized
+[2025-08-21 07:08:00] [INFO] [SessionManager] Session Manager async components initialized
+[2025-08-21 07:08:00] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 07:08:00] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 07:08:00] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 07:08:00] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 07:08:00] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 07:08:00] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 07:08:00] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 07:08:00] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 07:08:00] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 07:08:00] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 07:08:00] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Main Orchestrator initialized
+[2025-08-21 07:08:00] [INFO] [RAGBase] RAG : SimpleRAG initialized
+[2025-08-21 07:08:00] [INFO] [SimpleRAG] RAG [Simple] : Loading document templates
+[2025-08-21 07:08:00] [INFO] [SimpleRAG] RAG [Simple] : Loaded 2 template categories
+[2025-08-21 07:08:00] [INFO] [RAGBase] RAG : AdvancedRAG initialized
+[2025-08-21 07:08:00] [INFO] [AdvancedRAG] RAG [Advanced] : Initializing Advanced RAG components
+[2025-08-21 07:08:00] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced RAG components initialized
+[2025-08-21 07:08:00] [INFO] [RAGBase] RAG : GraphRAG initialized
+[2025-08-21 07:08:00] [INFO] [GraphRAG] RAG [Graph] : Building curriculum knowledge graph
+[2025-08-21 07:08:00] [INFO] [GraphRAG] RAG [Graph] : Knowledge graph built successfully
+[2025-08-21 07:08:00] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP Orchestrator initialized
+[2025-08-21 07:08:00] [INFO] [RAGProcessingService] RAG Processing Service initialized
+[2025-08-21 07:08:00] [INFO] [SessionManager] WebSocket broadcast callback set
+[2025-08-21 07:08:00] [INFO] [FastAPI-App] SUCCESS: Backend services initialized successfully
+[2025-08-21 07:08:08] [INFO] [SessionManager] SUCCESS: Session created: rag-ec53936d8739 for user: test_user_123
+[2025-08-21 07:08:08] [INFO] [FastAPI-App] New session created: rag-ec53936d8739
+[2025-08-21 07:08:31] [INFO] [SessionManager] Session rag-ec53936d8739 status updated: input_collection - User input received
+[2025-08-21 07:08:31] [INFO] [SessionManager] User input set for session rag-ec53936d8739
+[2025-08-21 07:08:31] [INFO] [RAGProcessingService] Processing started for session: rag-ec53936d8739
+[2025-08-21 07:08:31] [INFO] [FastAPI-App] User input submitted and processing started for session: rag-ec53936d8739
+[2025-08-21 07:08:31] [INFO] [SessionManager] Session rag-ec53936d8739 status updated: processing - Starting task analysis
+[2025-08-21 07:08:32] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Analyzing task complexity and requirements
+[2025-08-21 07:08:32] [INFO] [MainOrchestrator] ORCHESTRATOR [Main]: Task analysis result: medium complexity, strategy: advanced, missing: ['ATP']
+[2025-08-21 07:08:32] [INFO] [RAGProcessingService] Task analysis completed: medium complexity
+[2025-08-21 07:08:32] [INFO] [SessionManager] Session rag-ec53936d8739 status updated: processing - Task analysis completed
+[2025-08-21 07:08:32] [INFO] [RAGProcessingService] CP/ATP generation needed for session: rag-ec53936d8739
+[2025-08-21 07:08:32] [INFO] [SessionManager] Session rag-ec53936d8739 status updated: cp_atp_generation - Generating CP/ATP
+[2025-08-21 07:08:32] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Starting CP/ATP generation with advanced strategy
+[2025-08-21 07:08:32] [INFO] [CPATPOrchestrator] RAG [Advanced] : Using Advanced RAG with query rewriting and reranking
+[2025-08-21 07:08:32] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Generating Capaian Pembelajaran (CP)
+[2025-08-21 07:08:32] [INFO] [CPATPOrchestrator] RAG : Starting CP generation process
+[2025-08-21 07:08:32] [INFO] [AdvancedRAG] RAG [Advanced] : Starting advanced retrieval for: Capaian Pembelajaran untuk mata pelajaran Matemati...
+[2025-08-21 07:08:32] [INFO] [AdvancedRAG] RAG [Advanced] : Generated 5 expanded queries
+[2025-08-21 07:08:32] [INFO] [AdvancedRAG] RAG [Advanced] : Found 50 unique candidate documents
+[2025-08-21 07:08:32] [INFO] [AdvancedRAG] RAG [Advanced] : Retrieved 5 reranked documents
+[2025-08-21 07:08:32] [INFO] [AdvancedRAG] RAG [Advanced] : Generating cp content using Advanced RAG
+[2025-08-21 07:08:32] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 07:08:33] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 1
+[2025-08-21 07:08:33] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 07:08:34] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 2
+[2025-08-21 07:08:34] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 07:08:35] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced content generated (length: 2415 chars)
+[2025-08-21 07:08:35] [INFO] [CPATPOrchestrator] RAG : CP generated successfully (length: 2415 chars)
+[2025-08-21 07:08:35] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: Generating Alur Tujuan Pembelajaran (ATP)
+[2025-08-21 07:08:35] [INFO] [CPATPOrchestrator] RAG : Starting ATP generation process
+[2025-08-21 07:08:35] [INFO] [AdvancedRAG] RAG [Advanced] : Starting advanced retrieval for: Alur Tujuan Pembelajaran untuk mata pelajaran Mate...
+[2025-08-21 07:08:35] [INFO] [AdvancedRAG] RAG [Advanced] : Generated 5 expanded queries
+[2025-08-21 07:08:35] [INFO] [AdvancedRAG] RAG [Advanced] : Found 50 unique candidate documents
+[2025-08-21 07:08:35] [INFO] [AdvancedRAG] RAG [Advanced] : Retrieved 5 reranked documents
+[2025-08-21 07:08:35] [INFO] [AdvancedRAG] RAG [Advanced] : Generating atp content using Advanced RAG
+[2025-08-21 07:08:35] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 07:08:36] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 1
+[2025-08-21 07:08:36] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 07:08:37] [INFO] [AdvancedRAG] RAG [Advanced] : Refinement iteration 2
+[2025-08-21 07:08:37] [INFO] [RAGBase] RAG : Simulating LLM call with gemini-1.5-flash
+[2025-08-21 07:08:38] [INFO] [AdvancedRAG] RAG [Advanced] : Advanced content generated (length: 2385 chars)
+[2025-08-21 07:08:38] [INFO] [CPATPOrchestrator] RAG : ATP generated successfully (length: 2385 chars)
+[2025-08-21 07:08:38] [INFO] [CPATPOrchestrator] ORCHESTRATOR [CP/ATP]: CP/ATP generation completed with confidence: 0.90
+[2025-08-21 07:08:38] [INFO] [RAGProcessingService] SUCCESS: CP/ATP generated for session: rag-ec53936d8739
+[2025-08-21 07:08:38] [INFO] [SessionManager] Session rag-ec53936d8739 status updated: cp_atp_generation - CP/ATP generated
+[2025-08-21 07:08:38] [INFO] [SessionManager] Session rag-ec53936d8739 status updated: user_validation - Waiting for user validation
+[2025-08-21 07:09:26] [INFO] [SessionManager] Session rag-ec53936d8739 status updated: user_validation - Validation approved
+[2025-08-21 07:09:26] [INFO] [RAGProcessingService] CP/ATP approved for session: rag-ec53936d8739
+[2025-08-21 07:09:26] [INFO] [SessionManager] Session rag-ec53936d8739 status updated: processing - Creating final input
+[2025-08-21 07:09:26] [INFO] [SessionManager] Session rag-ec53936d8739 status updated: completed - Processing completed
+[2025-08-21 07:09:26] [INFO] [SessionManager] SUCCESS: Final input set for session rag-ec53936d8739
+[2025-08-21 07:09:26] [INFO] [RAGProcessingService] SUCCESS: Final input created for session: rag-ec53936d8739
+[2025-08-21 07:09:26] [INFO] [FastAPI-App] Validation submitted for session: rag-ec53936d8739, approved: True

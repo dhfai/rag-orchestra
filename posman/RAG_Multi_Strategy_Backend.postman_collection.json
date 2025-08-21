@@ -1,0 +1,407 @@
+{
+	"info": {
+		"_postman_id": "rag-multi-strategy-backend",
+		"name": "RAG Multi-Strategy Backend API",
+		"description": "Collection untuk testing RAG Multi-Strategy Backend API\n\nBase URL: http://localhost:8000\n\nEndpoints yang tersedia:\n- Health Check\n- Session Management (Create, List, Get, Delete)\n- User Input Processing\n- Validation & Final Results\n- WebSocket Support",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Health & Status",
+			"item": [
+				{
+					"name": "Health Check",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/health",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"health"
+							]
+						},
+						"description": "Check backend health status and service availability"
+					},
+					"response": []
+				},
+				{
+					"name": "Root Endpoint",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								""
+							]
+						},
+						"description": "Root endpoint information"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints untuk checking status dan health backend"
+		},
+		{
+			"name": "Session Management",
+			"item": [
+				{
+					"name": "Create Session",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Save session_id for other requests",
+									"if (pm.response.code === 200) {",
+									"    const response = pm.response.json();",
+									"    pm.environment.set('session_id', response.session_id);",
+									"    console.log('Session ID saved:', response.session_id);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"max_processing_time\": 3600,\n    \"preferred_strategy\": \"simple\",\n    \"user_preferences\": {\n        \"user_id\": \"test_user_123\",\n        \"language\": \"id\",\n        \"subject_focus\": \"matematika\"\n    },\n    \"timeout_settings\": {\n        \"request_timeout\": 30,\n        \"processing_timeout\": 300\n    }\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/sessions",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"sessions"
+							]
+						},
+						"description": "Create new session dengan konfigurasi optional"
+					},
+					"response": []
+				},
+				{
+					"name": "Create Session (Minimal)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Save session_id for other requests",
+									"if (pm.response.code === 200) {",
+									"    const response = pm.response.json();",
+									"    pm.environment.set('session_id', response.session_id);",
+									"    console.log('Session ID saved:', response.session_id);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/sessions",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"sessions"
+							]
+						},
+						"description": "Create session dengan konfigurasi default (minimal)"
+					},
+					"response": []
+				},
+				{
+					"name": "List Sessions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/sessions?limit=10&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"sessions"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10",
+									"description": "Maximum number of sessions to return"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Number of sessions to skip"
+								}
+							]
+						},
+						"description": "Get list of all sessions with pagination"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Session Status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/sessions/{{session_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"sessions",
+								"{{session_id}}"
+							]
+						},
+						"description": "Get detailed status of specific session"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Session",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/sessions/{{session_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"sessions",
+								"{{session_id}}"
+							]
+						},
+						"description": "Delete specific session"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints untuk mengelola session lifecycle"
+		},
+		{
+			"name": "Content Processing",
+			"item": [
+				{
+					"name": "Submit User Input - Matematika",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nama_guru\": \"Bu Sari\",\n    \"nama_sekolah\": \"SD Negeri 1 Jakarta\",\n    \"mata_pelajaran\": \"Matematika\",\n    \"topik\": \"Bilangan Bulat dan Pecahan\",\n    \"sub_topik\": \"Operasi hitung bilangan bulat dan pecahan sederhana\",\n    \"kelas\": \"Kelas 5\",\n    \"alokasi_waktu\": \"4 x 35 menit\",\n    \"model_llm\": \"gemini-1.5-flash\",\n    \"cp\": \"Di akhir fase C, peserta didik dapat menyelesaikan masalah yang berkaitan dengan bilangan cacah dan pecahan sederhana\",\n    \"atp\": \"\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/sessions/{{session_id}}/input",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"sessions",
+								"{{session_id}}",
+								"input"
+							]
+						},
+						"description": "Submit user input untuk generate ATP Matematika"
+					},
+					"response": []
+				},
+				{
+					"name": "Submit User Input - Bahasa Indonesia",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nama_guru\": \"Pak Budi\",\n    \"nama_sekolah\": \"SD Negeri 2 Bandung\",\n    \"mata_pelajaran\": \"Bahasa Indonesia\",\n    \"topik\": \"Membaca dan Menulis\",\n    \"sub_topik\": \"Kemampuan membaca pemahaman dan menulis karangan sederhana\",\n    \"kelas\": \"Kelas 4\",\n    \"alokasi_waktu\": \"3 x 35 menit\",\n    \"model_llm\": \"gpt-4\",\n    \"cp\": \"Di akhir fase B, peserta didik mampu membaca dengan pemahaman dan menulis dengan struktur yang jelas\",\n    \"atp\": \"\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/sessions/{{session_id}}/input",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"sessions",
+								"{{session_id}}",
+								"input"
+							]
+						},
+						"description": "Submit user input untuk generate CP Bahasa Indonesia"
+					},
+					"response": []
+				},
+				{
+					"name": "Submit User Input - IPAS",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nama_guru\": \"Bu Ani\",\n    \"nama_sekolah\": \"SD Negeri 3 Surabaya\",\n    \"mata_pelajaran\": \"IPAS\",\n    \"topik\": \"Lingkungan dan Energi\",\n    \"sub_topik\": \"Pengaruh aktivitas manusia terhadap lingkungan dan sumber energi alternatif\",\n    \"kelas\": \"Kelas 6\",\n    \"alokasi_waktu\": \"6 x 35 menit\",\n    \"model_llm\": \"gemini-1.5-flash\",\n    \"cp\": \"Di akhir fase C, peserta didik dapat menganalisis hubungan antara aktivitas manusia dengan lingkungan\",\n    \"atp\": \"\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/sessions/{{session_id}}/input",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"sessions",
+								"{{session_id}}",
+								"input"
+							]
+						},
+						"description": "Submit user input untuk generate ATP IPAS"
+					},
+					"response": []
+				},
+				{
+					"name": "Submit Validation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"feedback\": \"ATP sudah bagus, tapi perlu ditambahkan lebih detail pada indikator pembelajaran untuk setiap tujuan pembelajaran\",\n    \"requested_changes\": [\n        \"Tambahkan indikator pembelajaran yang lebih spesifik\",\n        \"Sesuaikan dengan karakteristik siswa kelas 5\",\n        \"Tambahkan contoh kegiatan pembelajaran\"\n    ],\n    \"approval_status\": \"needs_revision\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/sessions/{{session_id}}/validate",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"sessions",
+								"{{session_id}}",
+								"validate"
+							]
+						},
+						"description": "Submit validation feedback untuk perbaikan"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Final Result",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/sessions/{{session_id}}/result",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"sessions",
+								"{{session_id}}",
+								"result"
+							]
+						},
+						"description": "Get final processed result dari session"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints untuk processing content dan mendapatkan hasil"
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// Set default base_url if not exists",
+					"if (!pm.environment.get('base_url')) {",
+					"    pm.environment.set('base_url', 'http://localhost:8000');",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// Global test script",
+					"pm.test('Response time is acceptable', function () {",
+					"    pm.expect(pm.response.responseTime).to.be.below(5000);",
+					"});",
+					"",
+					"if (pm.response.code !== 200) {",
+					"    console.log('Response:', pm.response.text());",
+					"}"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:8000",
+			"type": "string"
+		},
+		{
+			"key": "session_id",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

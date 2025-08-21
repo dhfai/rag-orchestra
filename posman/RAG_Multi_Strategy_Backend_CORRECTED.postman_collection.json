@@ -1,0 +1,247 @@
+{
+	"info": {
+		"_postman_id": "rag-multi-strategy-backend-v2",
+		"name": "RAG Multi-Strategy Backend API v2.0 (Corrected Schema)",
+		"description": "✅ UPDATED Collection dengan schema yang BENAR!\n\n⚠️ PENTING: Gunakan file ini, bukan yang lama!\n\nSchema BARU untuk Submit Input:\n- nama_guru (required)\n- nama_sekolah (required)\n- mata_pelajaran (required)\n- topik (required)\n- sub_topik (required)\n- kelas (required)\n- alokasi_waktu (required)\n- model_llm (required: \"gemini-1.5-flash\" atau \"gpt-4\")\n- cp (optional)\n- atp (optional)\n\nBase URL: http://localhost:8000\nUpdated: August 21, 2025",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "updated-2025-08-21"
+	},
+	"item": [
+		{
+			"name": "🏥 Health & Status",
+			"item": [
+				{
+					"name": "Health Check",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/health",
+							"host": ["{{base_url}}"],
+							"path": ["api", "health"]
+						},
+						"description": "Check backend health status"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "👥 Session Management",
+			"item": [
+				{
+					"name": "Create Session (Minimal)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (pm.response.code === 200) {",
+									"    const response = pm.response.json();",
+									"    pm.environment.set('session_id', response.session_id);",
+									"    console.log('✅ Session ID saved:', response.session_id);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [{"key": "Content-Type", "value": "application/json"}],
+						"body": {
+							"mode": "raw",
+							"raw": "{}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/sessions",
+							"host": ["{{base_url}}"],
+							"path": ["api", "sessions"]
+						},
+						"description": "Create session dengan konfigurasi default"
+					},
+					"response": []
+				},
+				{
+					"name": "List Sessions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/sessions?limit=10&offset=0",
+							"host": ["{{base_url}}"],
+							"path": ["api", "sessions"],
+							"query": [
+								{"key": "limit", "value": "10"},
+								{"key": "offset", "value": "0"}
+							]
+						},
+						"description": "List all sessions"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Session Status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/sessions/{{session_id}}",
+							"host": ["{{base_url}}"],
+							"path": ["api", "sessions", "{{session_id}}"]
+						},
+						"description": "Get session details"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "📚 Content Processing (CORRECTED SCHEMA)",
+			"item": [
+				{
+					"name": "✅ Submit Input - Matematika (SCHEMA BARU)",
+					"request": {
+						"method": "POST",
+						"header": [{"key": "Content-Type", "value": "application/json"}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nama_guru\": \"Bu Sari Matematika\",\n    \"nama_sekolah\": \"SD Negeri 1 Jakarta\",\n    \"mata_pelajaran\": \"Matematika\",\n    \"topik\": \"Bilangan Bulat dan Pecahan\",\n    \"sub_topik\": \"Operasi hitung bilangan bulat dan pecahan sederhana\",\n    \"kelas\": \"Kelas 5\",\n    \"alokasi_waktu\": \"4 x 35 menit\",\n    \"model_llm\": \"gemini-1.5-flash\",\n    \"cp\": \"Di akhir fase C, peserta didik dapat menyelesaikan masalah yang berkaitan dengan bilangan cacah dan pecahan sederhana\",\n    \"atp\": \"\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/sessions/{{session_id}}/input",
+							"host": ["{{base_url}}"],
+							"path": ["api", "sessions", "{{session_id}}", "input"]
+						},
+						"description": "✅ SCHEMA BARU - Submit input untuk Matematika dengan semua field required"
+					},
+					"response": []
+				},
+				{
+					"name": "✅ Submit Input - Bahasa Indonesia (SCHEMA BARU)",
+					"request": {
+						"method": "POST",
+						"header": [{"key": "Content-Type", "value": "application/json"}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nama_guru\": \"Pak Budi Bahasa\",\n    \"nama_sekolah\": \"SD Negeri 2 Bandung\",\n    \"mata_pelajaran\": \"Bahasa Indonesia\",\n    \"topik\": \"Membaca dan Menulis\",\n    \"sub_topik\": \"Kemampuan membaca pemahaman dan menulis karangan sederhana\",\n    \"kelas\": \"Kelas 4\",\n    \"alokasi_waktu\": \"3 x 35 menit\",\n    \"model_llm\": \"gpt-4\",\n    \"cp\": \"Di akhir fase B, peserta didik mampu membaca dengan pemahaman dan menulis dengan struktur yang jelas\",\n    \"atp\": \"\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/sessions/{{session_id}}/input",
+							"host": ["{{base_url}}"],
+							"path": ["api", "sessions", "{{session_id}}", "input"]
+						},
+						"description": "✅ SCHEMA BARU - Submit input untuk Bahasa Indonesia"
+					},
+					"response": []
+				},
+				{
+					"name": "✅ Submit Input - IPAS (SCHEMA BARU)",
+					"request": {
+						"method": "POST",
+						"header": [{"key": "Content-Type", "value": "application/json"}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nama_guru\": \"Bu Ani IPAS\",\n    \"nama_sekolah\": \"SD Negeri 3 Surabaya\",\n    \"mata_pelajaran\": \"IPAS\",\n    \"topik\": \"Lingkungan dan Energi\",\n    \"sub_topik\": \"Pengaruh aktivitas manusia terhadap lingkungan dan sumber energi alternatif\",\n    \"kelas\": \"Kelas 6\",\n    \"alokasi_waktu\": \"6 x 35 menit\",\n    \"model_llm\": \"gemini-1.5-flash\",\n    \"cp\": \"Di akhir fase C, peserta didik dapat menganalisis hubungan antara aktivitas manusia dengan lingkungan\",\n    \"atp\": \"\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/sessions/{{session_id}}/input",
+							"host": ["{{base_url}}"],
+							"path": ["api", "sessions", "{{session_id}}", "input"]
+						},
+						"description": "✅ SCHEMA BARU - Submit input untuk IPAS"
+					},
+					"response": []
+				},
+				{
+					"name": "Submit Validation",
+					"request": {
+						"method": "POST",
+						"header": [{"key": "Content-Type", "value": "application/json"}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"is_approved\": false,\n    \"feedback\": \"ATP sudah bagus, tapi perlu ditambahkan lebih detail pada indikator pembelajaran\",\n    \"requested_changes\": [\n        \"Tambahkan indikator pembelajaran yang lebih spesifik\",\n        \"Sesuaikan dengan karakteristik siswa\",\n        \"Tambahkan contoh kegiatan pembelajaran\"\n    ]\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/sessions/{{session_id}}/validate",
+							"host": ["{{base_url}}"],
+							"path": ["api", "sessions", "{{session_id}}", "validate"]
+						},
+						"description": "Submit validation feedback"
+					},
+					"response": []
+				},
+				{
+					"name": "📋 Get CP/ATP Preview (FOR VALIDATION)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/sessions/{{session_id}}/preview",
+							"host": ["{{base_url}}"],
+							"path": ["api", "sessions", "{{session_id}}", "preview"]
+						},
+						"description": "⭐ PENTING: Gunakan endpoint ini untuk melihat hasil CP/ATP yang sudah di-generate sebelum melakukan validation!\n\nResponse berisi:\n- generated_cp: Capaian Pembelajaran yang sudah dibuat\n- generated_atp: Alur Tujuan Pembelajaran yang sudah dibuat\n- confidence_score: Tingkat kepercayaan sistem\n- additional_notes: Catatan tambahan\n\nSetelah review, gunakan 'Submit Validation' untuk approve/reject."
+					},
+					"response": []
+				},
+				{
+					"name": "Get Final Result",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/sessions/{{session_id}}/result",
+							"host": ["{{base_url}}"],
+							"path": ["api", "sessions", "{{session_id}}", "result"]
+						},
+						"description": "Get final processed result"
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"if (!pm.environment.get('base_url')) {",
+					"    pm.environment.set('base_url', 'http://localhost:8000');",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.test('Response time < 10s', function () {",
+					"    pm.expect(pm.response.responseTime).to.be.below(10000);",
+					"});",
+					"",
+					"if (pm.response.code !== 200) {",
+					"    console.log('❌ Error Response:', pm.response.text());",
+					"} else {",
+					"    console.log('✅ Success Response');",
+					"}"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:8000",
+			"type": "string"
+		},
+		{
+			"key": "session_id",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
