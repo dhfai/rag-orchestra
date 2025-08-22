@@ -20,6 +20,9 @@ aiofiles
 redis
 celery
 pydantic-settings
+ddgs
+requests
+beautifulsoup4
 
 # Database & ORM
 sqlalchemy>=2.0.23

@@ -1,0 +1,830 @@
+[2025-08-22 06:36:48] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:36:48] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:36:48] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:36:48] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:36:48] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:36:53] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:36:53] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:36:53] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:36:53] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:36:53] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:36:53] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:36:53] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:36:53] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:36:53] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:36:53] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:36:53] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:36:53] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:36:53] [INFO] [WebSocketApp] Starting RAG Orchestra Real-time WebSocket API...
+[2025-08-22 06:36:56] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:36:56] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:36:56] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:36:56] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:36:56] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:36:56] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:36:56] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:36:56] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:36:56] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:36:56] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:36:56] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:36:56] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:36:56] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:36:56] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:36:56] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:36:56] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:36:56] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:38:25] [INFO] [SystemInitializer] Initializing RAG Orchestra System...
+[2025-08-22 06:38:25] [INFO] [SystemInitializer] Initializing LLM Service...
+[2025-08-22 06:38:25] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:38:25] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:38:26] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:38:26] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:38:26] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:38:26] [INFO] [SystemInitializer] Initializing Vector DB Service...
+[2025-08-22 06:38:26] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:38:26] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:38:26] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:38:26] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:38:26] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:38:26] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:38:26] [INFO] [SystemInitializer] Initializing Online Search Service...
+[2025-08-22 06:38:26] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:38:26] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:38:26] [INFO] [SystemInitializer] Initializing Enhanced Main Orchestrator...
+[2025-08-22 06:38:26] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:38:26] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:38:26] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:38:26] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:38:26] [INFO] [SystemInitializer] Initializing Prompt Builder Agent...
+[2025-08-22 06:38:26] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:38:26] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:38:26] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:38:26] [INFO] [SystemInitializer] Performing system health check...
+[2025-08-22 06:38:27] [DEBUG] [LLMService] Provider gemini health check passed
+[2025-08-22 06:38:28] [ERROR] [LLMService] Error generating text with OpenAI: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+[2025-08-22 06:38:28] [WARNING] [LLMService] Provider openai health check failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+[2025-08-22 06:38:28] [INFO] [SystemInitializer] LLM Service health: {'gemini': True, 'openai': False}
+[2025-08-22 06:38:28] [INFO] [SystemInitializer] Vector DB stats: {'cp': {'document_count': 0, 'collection_name': 'curriculum_planning'}, 'atp': {'document_count': 0, 'collection_name': 'learning_targets'}, 'modul_ajar': {'document_count': 0, 'collection_name': 'teaching_modules'}, 'general': {'document_count': 0, 'collection_name': 'general_documents'}}
+[2025-08-22 06:38:28] [INFO] [OnlineSearchService] Searching online for: test kurikulum kurikulum pendidikan Indonesia
+[2025-08-22 06:38:28] [INFO] [OnlineSearchService] Found 0 relevant results
+[2025-08-22 06:38:28] [INFO] [SystemInitializer] Online Search health: {'status': 'healthy', 'test_results_count': 0, 'last_check': '2025-08-22T06:38:28.974585'}
+[2025-08-22 06:38:28] [INFO] [SystemInitializer] SUCCESS: RAG Orchestra System initialized successfully!
+[2025-08-22 06:38:28] [INFO] [SystemInitializer] Starting Interactive Mode...
+[2025-08-22 06:39:30] [INFO] [EnhancedMainOrchestrator] Starting Complete Input orchestration
+[2025-08-22 06:39:30] [DEBUG] [EnhancedMainOrchestrator] Performing comprehensive task analysis
+[2025-08-22 06:39:30] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:39:30] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 06:39:32] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:39:32] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 06:39:32] [DEBUG] [EnhancedMainOrchestrator] Advanced RAG score: 0.420 (L'=0.167, E'=1.000, D=0.000, S'=0.600)
+[2025-08-22 06:39:32] [DEBUG] [EnhancedMainOrchestrator] Graph RAG score: 0.280 (ρ'=0.000, δ'=0.700, I=0.0)
+[2025-08-22 06:39:32] [INFO] [PromptBuilderAgent] Starting Complete Input building process
+[2025-08-22 06:39:32] [DEBUG] [PromptBuilderAgent] Checking input completeness
+[2025-08-22 06:39:32] [INFO] [PromptBuilderAgent] CP and ATP not provided, generation required
+[2025-08-22 06:39:32] [INFO] [PromptBuilderAgent] Starting CP/ATP generation
+[2025-08-22 06:39:32] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:39:32] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 06:39:32] [INFO] [OnlineSearchService] Searching online for: CP Bahasa Indonesia kelas 2 SD Bahasa Formal kurikulum pendidikan Indonesia
+[2025-08-22 06:39:33] [INFO] [OnlineSearchService] Found 0 relevant results
+[2025-08-22 06:39:33] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:39:33] [DEBUG] [VectorDBService] Found 0 documents for query in atp
+[2025-08-22 06:39:33] [INFO] [OnlineSearchService] Searching online for: ATP Bahasa Indonesia kelas 2 SD Bahasa Formal kurikulum pendidikan Indonesia
+[2025-08-22 06:39:34] [INFO] [OnlineSearchService] Found 0 relevant results
+[2025-08-22 06:39:38] [DEBUG] [LLMService] Text generated successfully using gemini
+[2025-08-22 06:39:44] [DEBUG] [LLMService] Text generated successfully using gemini
+[2025-08-22 06:39:44] [INFO] [PromptBuilderAgent] SUCCESS: CP/ATP generation completed
+[2025-08-22 06:39:44] [INFO] [PromptBuilderAgent] SUCCESS: Complete Input building process completed
+[2025-08-22 06:39:44] [WARNING] [EnhancedMainOrchestrator] Quality check failed, attempting re-routing to Adaptive RAG
+[2025-08-22 06:39:44] [INFO] [EnhancedMainOrchestrator] SUCCESS: Complete Input orchestration completed successfully
+[2025-08-22 06:40:05] [ERROR] [SystemInitializer] Error in interactive mode: module 'datetime' has no attribute 'now'
+[2025-08-22 06:42:14] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:42:14] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:42:14] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:42:14] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:42:14] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:42:14] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:42:14] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:42:14] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:42:14] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:42:14] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:42:14] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:42:14] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:42:14] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:42:14] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:42:14] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:42:14] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:42:14] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:42:29] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:42:29] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:42:29] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:42:29] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:42:29] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:42:29] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:42:29] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:42:29] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:42:30] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:42:30] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:42:30] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:42:30] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:42:30] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:42:30] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:42:30] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:42:30] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:42:30] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:43:28] [INFO] [WebSocketApp] WebSocket connected: session_grkl3wgj3
+[2025-08-22 06:43:49] [ERROR] [WebSocketApp] Error in processing: 'gemini' is not a valid LLMModel
+[2025-08-22 06:44:00] [INFO] [WebSocketApp] WebSocket disconnected: session_grkl3wgj3
+[2025-08-22 06:44:00] [INFO] [WebSocketApp] WebSocket disconnected: session_grkl3wgj3
+[2025-08-22 06:45:31] [INFO] [SystemInitializer] Initializing RAG Orchestra System...
+[2025-08-22 06:45:31] [INFO] [SystemInitializer] Initializing LLM Service...
+[2025-08-22 06:45:31] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:45:31] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:45:32] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:45:32] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:45:32] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:45:32] [INFO] [SystemInitializer] Initializing Vector DB Service...
+[2025-08-22 06:45:32] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:45:32] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:45:32] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:45:32] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:45:32] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:45:32] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:45:32] [INFO] [SystemInitializer] Initializing Online Search Service...
+[2025-08-22 06:45:32] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:45:32] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:45:32] [INFO] [SystemInitializer] Initializing Enhanced Main Orchestrator...
+[2025-08-22 06:45:32] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:45:32] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:45:32] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:45:32] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:45:32] [INFO] [SystemInitializer] Initializing Prompt Builder Agent...
+[2025-08-22 06:45:32] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:45:32] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:45:32] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:45:32] [INFO] [SystemInitializer] Performing system health check...
+[2025-08-22 06:45:33] [DEBUG] [LLMService] Provider gemini health check passed
+[2025-08-22 06:45:34] [ERROR] [LLMService] Error generating text with OpenAI: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+[2025-08-22 06:45:34] [WARNING] [LLMService] Provider openai health check failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+[2025-08-22 06:45:34] [INFO] [SystemInitializer] LLM Service health: {'gemini': True, 'openai': False}
+[2025-08-22 06:45:34] [INFO] [SystemInitializer] Vector DB stats: {'cp': {'document_count': 0, 'collection_name': 'curriculum_planning'}, 'atp': {'document_count': 0, 'collection_name': 'learning_targets'}, 'modul_ajar': {'document_count': 0, 'collection_name': 'teaching_modules'}, 'general': {'document_count': 0, 'collection_name': 'general_documents'}}
+[2025-08-22 06:45:34] [INFO] [OnlineSearchService] Searching online for: test kurikulum kurikulum pendidikan Indonesia
+[2025-08-22 06:45:34] [ERROR] [OnlineSearchService] Error in sync search: DDGS.text() missing 1 required positional argument: 'query'
+[2025-08-22 06:45:34] [INFO] [OnlineSearchService] Found 0 relevant results
+[2025-08-22 06:45:34] [INFO] [SystemInitializer] Online Search health: {'status': 'healthy', 'test_results_count': 0, 'last_check': '2025-08-22T06:45:34.894191'}
+[2025-08-22 06:45:34] [INFO] [SystemInitializer] SUCCESS: RAG Orchestra System initialized successfully!
+[2025-08-22 06:45:34] [INFO] [SystemInitializer] Starting Interactive Mode...
+[2025-08-22 06:45:39] [ERROR] [SystemInitializer] Error in interactive mode: 
+[2025-08-22 06:46:40] [INFO] [SystemInitializer] Initializing RAG Orchestra System...
+[2025-08-22 06:46:40] [INFO] [SystemInitializer] Initializing LLM Service...
+[2025-08-22 06:46:40] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:46:40] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:46:41] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:46:41] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:46:41] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:46:41] [INFO] [SystemInitializer] Initializing Vector DB Service...
+[2025-08-22 06:46:41] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:46:41] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:46:41] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:46:41] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:46:41] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:46:41] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:46:41] [INFO] [SystemInitializer] Initializing Online Search Service...
+[2025-08-22 06:46:41] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:46:41] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:46:41] [INFO] [SystemInitializer] Initializing Enhanced Main Orchestrator...
+[2025-08-22 06:46:41] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:46:41] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:46:41] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:46:41] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:46:41] [INFO] [SystemInitializer] Initializing Prompt Builder Agent...
+[2025-08-22 06:46:41] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:46:41] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:46:41] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:46:41] [INFO] [SystemInitializer] Performing system health check...
+[2025-08-22 06:46:42] [DEBUG] [LLMService] Provider gemini health check passed
+[2025-08-22 06:46:43] [ERROR] [LLMService] Error generating text with OpenAI: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+[2025-08-22 06:46:43] [WARNING] [LLMService] Provider openai health check failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+[2025-08-22 06:46:43] [INFO] [SystemInitializer] LLM Service health: {'gemini': True, 'openai': False}
+[2025-08-22 06:46:44] [INFO] [SystemInitializer] Vector DB stats: {'cp': {'document_count': 0, 'collection_name': 'curriculum_planning'}, 'atp': {'document_count': 0, 'collection_name': 'learning_targets'}, 'modul_ajar': {'document_count': 0, 'collection_name': 'teaching_modules'}, 'general': {'document_count': 0, 'collection_name': 'general_documents'}}
+[2025-08-22 06:46:44] [INFO] [OnlineSearchService] Searching online for: test kurikulum kurikulum pendidikan Indonesia
+[2025-08-22 06:46:50] [INFO] [OnlineSearchService] Found 0 relevant results
+[2025-08-22 06:46:50] [INFO] [SystemInitializer] Online Search health: {'status': 'healthy', 'test_results_count': 0, 'last_check': '2025-08-22T06:46:50.945388'}
+[2025-08-22 06:46:50] [INFO] [SystemInitializer] SUCCESS: RAG Orchestra System initialized successfully!
+[2025-08-22 06:46:50] [INFO] [SystemInitializer] Starting Interactive Mode...
+[2025-08-22 06:47:35] [INFO] [EnhancedMainOrchestrator] Starting Complete Input orchestration
+[2025-08-22 06:47:35] [DEBUG] [EnhancedMainOrchestrator] Performing comprehensive task analysis
+[2025-08-22 06:47:35] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:47:35] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 06:47:36] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:47:36] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 06:47:36] [DEBUG] [EnhancedMainOrchestrator] Advanced RAG score: 0.443 (L'=0.200, E'=1.000, D=0.000, S'=0.667)
+[2025-08-22 06:47:36] [DEBUG] [EnhancedMainOrchestrator] Graph RAG score: 0.320 (ρ'=0.000, δ'=0.800, I=0.0)
+[2025-08-22 06:47:36] [INFO] [PromptBuilderAgent] Starting Complete Input building process
+[2025-08-22 06:47:36] [DEBUG] [PromptBuilderAgent] Checking input completeness
+[2025-08-22 06:47:36] [INFO] [PromptBuilderAgent] CP and ATP not provided, generation required
+[2025-08-22 06:47:36] [INFO] [PromptBuilderAgent] Starting CP/ATP generation
+[2025-08-22 06:47:37] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:47:37] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 06:47:37] [INFO] [OnlineSearchService] Searching online for: CP bahasa indonesia kelas 2 tata bahasa kurikulum pendidikan Indonesia
+[2025-08-22 06:47:44] [INFO] [OnlineSearchService] Found 1 relevant results
+[2025-08-22 06:47:45] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:47:45] [DEBUG] [VectorDBService] Found 0 documents for query in atp
+[2025-08-22 06:47:45] [INFO] [OnlineSearchService] Searching online for: ATP bahasa indonesia kelas 2 tata bahasa kurikulum pendidikan Indonesia
+[2025-08-22 06:47:45] [INFO] [OnlineSearchService] Found 0 relevant results
+[2025-08-22 06:47:48] [DEBUG] [LLMService] Text generated successfully using gemini
+[2025-08-22 06:47:54] [DEBUG] [LLMService] Text generated successfully using gemini
+[2025-08-22 06:47:54] [INFO] [PromptBuilderAgent] SUCCESS: CP/ATP generation completed
+[2025-08-22 06:47:54] [INFO] [PromptBuilderAgent] SUCCESS: Complete Input building process completed
+[2025-08-22 06:47:54] [WARNING] [EnhancedMainOrchestrator] Quality check failed, attempting re-routing to Adaptive RAG
+[2025-08-22 06:47:54] [INFO] [EnhancedMainOrchestrator] SUCCESS: Complete Input orchestration completed successfully
+[2025-08-22 06:53:14] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:53:14] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:53:14] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:53:14] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:53:14] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:53:15] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:53:15] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:53:15] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:53:15] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:53:15] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:53:15] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:53:15] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:53:15] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:53:15] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:53:15] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:53:15] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:53:15] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:53:49] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:53:49] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:53:50] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:53:50] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:53:50] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:53:50] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:53:50] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:53:50] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:53:50] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:53:50] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:53:50] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:53:50] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:53:50] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:53:50] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:53:50] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:53:50] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:53:50] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:54:11] [INFO] [WebSocketApp] WebSocket connected: session_j0yzdbote
+[2025-08-22 06:54:23] [ERROR] [WebSocketApp] Error in processing: 'gemini' is not a valid LLMModel
+[2025-08-22 06:54:44] [INFO] [WebSocketApp] WebSocket disconnected: session_j0yzdbote
+[2025-08-22 06:54:44] [INFO] [WebSocketApp] WebSocket disconnected: session_j0yzdbote
+[2025-08-22 06:54:48] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:54:48] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:54:49] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:54:49] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:54:49] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:54:49] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:54:49] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:54:49] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:54:49] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:54:49] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:54:49] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:54:49] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:54:49] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:54:49] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:54:49] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:54:49] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:54:49] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:55:41] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:55:41] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:55:42] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:55:42] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:55:42] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:55:42] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:55:42] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:55:42] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:55:42] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:55:42] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:55:42] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:55:42] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:55:42] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:55:42] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:55:42] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:55:42] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:55:42] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:55:54] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:55:54] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:55:54] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:55:54] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:55:54] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:55:54] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:55:54] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:55:54] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:55:54] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:55:54] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:55:54] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:55:54] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:55:54] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:55:54] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:55:54] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:55:54] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:55:54] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:56:41] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:56:41] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:56:41] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:56:41] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:56:41] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:56:42] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:56:42] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:56:42] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:56:42] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:56:42] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:56:42] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:56:42] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:56:42] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:56:42] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:56:42] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:56:42] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:56:42] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:56:45] [INFO] [WebSocketApp] WebSocket connected: session_jsc051r9f
+[2025-08-22 06:56:53] [INFO] [EnhancedMainOrchestrator] Starting Complete Input orchestration
+[2025-08-22 06:56:53] [DEBUG] [EnhancedMainOrchestrator] Performing comprehensive task analysis
+[2025-08-22 06:56:54] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:56:54] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 06:56:55] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:56:55] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 06:56:55] [DEBUG] [EnhancedMainOrchestrator] Advanced RAG score: 0.440 (L'=0.133, E'=1.000, D=0.000, S'=0.750)
+[2025-08-22 06:56:55] [DEBUG] [EnhancedMainOrchestrator] Graph RAG score: 0.200 (ρ'=0.000, δ'=0.500, I=0.0)
+[2025-08-22 06:56:55] [ERROR] [WebSocketApp] Failed to send WebSocket response: Object of type RAGStrategy is not JSON serializable
+[2025-08-22 06:56:55] [ERROR] [WebSocketApp] Failed to send WebSocket response: Object of type RAGStrategy is not JSON serializable
+[2025-08-22 06:56:55] [INFO] [PromptBuilderAgent] Starting Complete Input building process
+[2025-08-22 06:56:55] [DEBUG] [PromptBuilderAgent] Checking input completeness
+[2025-08-22 06:56:55] [INFO] [PromptBuilderAgent] CP and ATP not provided, generation required
+[2025-08-22 06:56:55] [INFO] [PromptBuilderAgent] Starting CP/ATP generation
+[2025-08-22 06:56:55] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:56:55] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 06:56:55] [INFO] [OnlineSearchService] Searching online for: CP Matematika kelas 1 Penjumlahan kurikulum pendidikan Indonesia
+[2025-08-22 06:56:59] [INFO] [OnlineSearchService] Found 1 relevant results
+[2025-08-22 06:57:00] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:57:00] [DEBUG] [VectorDBService] Found 0 documents for query in atp
+[2025-08-22 06:57:00] [INFO] [OnlineSearchService] Searching online for: ATP Matematika kelas 1 Penjumlahan kurikulum pendidikan Indonesia
+[2025-08-22 06:57:01] [WARNING] [OnlineSearchService] Failed to fetch https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-a/: 403 Client Error: Forbidden for url: https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-a/
+[2025-08-22 06:57:01] [WARNING] [OnlineSearchService] Failed to fetch https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-b/: 403 Client Error: Forbidden for url: https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-b/
+[2025-08-22 06:57:01] [INFO] [OnlineSearchService] Found 0 relevant results
+[2025-08-22 06:57:05] [DEBUG] [LLMService] Text generated successfully using gemini
+[2025-08-22 06:57:12] [DEBUG] [LLMService] Text generated successfully using gemini
+[2025-08-22 06:57:12] [INFO] [PromptBuilderAgent] SUCCESS: CP/ATP generation completed
+[2025-08-22 06:57:12] [INFO] [PromptBuilderAgent] SUCCESS: Complete Input building process completed
+[2025-08-22 06:57:12] [WARNING] [EnhancedMainOrchestrator] Quality check failed, attempting re-routing to Adaptive RAG
+[2025-08-22 06:57:12] [INFO] [EnhancedMainOrchestrator] SUCCESS: Complete Input orchestration completed successfully
+[2025-08-22 06:57:56] [INFO] [WebSocketApp] WebSocket disconnected: session_jsc051r9f
+[2025-08-22 06:57:56] [INFO] [WebSocketApp] WebSocket disconnected: session_jsc051r9f
+[2025-08-22 06:58:02] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:58:02] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:58:03] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:58:03] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:58:03] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:58:03] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:58:03] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:58:03] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:58:03] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:58:03] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:58:03] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:58:03] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:58:03] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:58:03] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:58:03] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:58:03] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:58:03] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:58:29] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 06:58:29] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 06:58:30] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 06:58:30] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 06:58:30] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 06:58:30] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 06:58:30] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 06:58:30] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 06:58:30] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 06:58:30] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 06:58:30] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 06:58:30] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:58:30] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:58:30] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 06:58:30] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 06:58:30] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 06:58:30] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 06:58:36] [INFO] [WebSocketApp] WebSocket connected: session_muy3j6b5j
+[2025-08-22 06:58:44] [INFO] [EnhancedMainOrchestrator] Starting Complete Input orchestration
+[2025-08-22 06:58:44] [DEBUG] [EnhancedMainOrchestrator] Performing comprehensive task analysis
+[2025-08-22 06:58:44] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:58:44] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 06:58:46] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:58:46] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 06:58:46] [DEBUG] [EnhancedMainOrchestrator] Advanced RAG score: 0.440 (L'=0.133, E'=1.000, D=0.000, S'=0.750)
+[2025-08-22 06:58:46] [DEBUG] [EnhancedMainOrchestrator] Graph RAG score: 0.200 (ρ'=0.000, δ'=0.500, I=0.0)
+[2025-08-22 06:58:46] [INFO] [PromptBuilderAgent] Starting Complete Input building process
+[2025-08-22 06:58:46] [DEBUG] [PromptBuilderAgent] Checking input completeness
+[2025-08-22 06:58:46] [INFO] [PromptBuilderAgent] CP and ATP not provided, generation required
+[2025-08-22 06:58:46] [INFO] [PromptBuilderAgent] Starting CP/ATP generation
+[2025-08-22 06:58:46] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:58:46] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 06:58:46] [INFO] [OnlineSearchService] Searching online for: CP Matematika kelas 1 Penjumlahan kurikulum pendidikan Indonesia
+[2025-08-22 06:58:48] [WARNING] [OnlineSearchService] Failed to fetch https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-a/: 403 Client Error: Forbidden for url: https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-a/
+[2025-08-22 06:58:48] [INFO] [OnlineSearchService] Found 2 relevant results
+[2025-08-22 06:58:49] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 06:58:49] [DEBUG] [VectorDBService] Found 0 documents for query in atp
+[2025-08-22 06:58:49] [INFO] [OnlineSearchService] Searching online for: ATP Matematika kelas 1 Penjumlahan kurikulum pendidikan Indonesia
+[2025-08-22 06:58:51] [INFO] [OnlineSearchService] Found 0 relevant results
+[2025-08-22 06:58:55] [DEBUG] [LLMService] Text generated successfully using gemini
+[2025-08-22 06:59:01] [DEBUG] [LLMService] Text generated successfully using gemini
+[2025-08-22 06:59:01] [INFO] [PromptBuilderAgent] SUCCESS: CP/ATP generation completed
+[2025-08-22 06:59:01] [INFO] [PromptBuilderAgent] SUCCESS: Complete Input building process completed
+[2025-08-22 06:59:01] [WARNING] [EnhancedMainOrchestrator] Quality check failed, attempting re-routing to Adaptive RAG
+[2025-08-22 06:59:01] [INFO] [EnhancedMainOrchestrator] SUCCESS: Complete Input orchestration completed successfully
+[2025-08-22 06:59:33] [INFO] [WebSocketApp] WebSocket disconnected: session_muy3j6b5j
+[2025-08-22 06:59:33] [INFO] [WebSocketApp] WebSocket disconnected: session_muy3j6b5j
+[2025-08-22 20:01:54] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:01:54] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:01:54] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:01:54] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:01:54] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:01:55] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:01:55] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:01:55] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:01:55] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:01:55] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:01:55] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:01:55] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:01:55] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:01:55] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:01:55] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:01:55] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:01:55] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:03:05] [INFO] [WebSocketApp] WebSocket connected: session_pk0l7fawr
+[2025-08-22 20:08:32] [INFO] [EnhancedMainOrchestrator] Starting Complete Input orchestration
+[2025-08-22 20:08:32] [DEBUG] [EnhancedMainOrchestrator] Performing comprehensive task analysis
+[2025-08-22 20:08:33] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 20:08:33] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 20:08:34] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 20:08:34] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 20:08:34] [DEBUG] [EnhancedMainOrchestrator] Advanced RAG score: 0.440 (L'=0.133, E'=1.000, D=0.000, S'=0.750)
+[2025-08-22 20:08:34] [DEBUG] [EnhancedMainOrchestrator] Graph RAG score: 0.200 (ρ'=0.000, δ'=0.500, I=0.0)
+[2025-08-22 20:08:34] [INFO] [PromptBuilderAgent] Starting Complete Input building process
+[2025-08-22 20:08:34] [DEBUG] [PromptBuilderAgent] Checking input completeness
+[2025-08-22 20:08:34] [INFO] [PromptBuilderAgent] CP and ATP not provided, generation required
+[2025-08-22 20:08:34] [INFO] [PromptBuilderAgent] Starting CP/ATP generation
+[2025-08-22 20:08:35] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 20:08:35] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 20:08:35] [INFO] [OnlineSearchService] Searching online for: CP Matematika kelas 1 Penjumlahan kurikulum pendidikan Indonesia
+[2025-08-22 20:08:37] [WARNING] [OnlineSearchService] Failed to fetch https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-a/: 403 Client Error: Forbidden for url: https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-a/
+[2025-08-22 20:08:38] [INFO] [OnlineSearchService] Found 2 relevant results
+[2025-08-22 20:08:39] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 20:08:39] [DEBUG] [VectorDBService] Found 0 documents for query in atp
+[2025-08-22 20:08:39] [INFO] [OnlineSearchService] Searching online for: ATP Matematika kelas 1 Penjumlahan kurikulum pendidikan Indonesia
+[2025-08-22 20:08:42] [INFO] [OnlineSearchService] Found 1 relevant results
+[2025-08-22 20:08:46] [DEBUG] [LLMService] Text generated successfully using gemini
+[2025-08-22 20:08:52] [DEBUG] [LLMService] Text generated successfully using gemini
+[2025-08-22 20:08:52] [INFO] [PromptBuilderAgent] SUCCESS: CP/ATP generation completed
+[2025-08-22 20:08:52] [INFO] [PromptBuilderAgent] SUCCESS: Complete Input building process completed
+[2025-08-22 20:08:52] [WARNING] [EnhancedMainOrchestrator] Quality check failed, attempting re-routing to Adaptive RAG
+[2025-08-22 20:08:52] [INFO] [EnhancedMainOrchestrator] SUCCESS: Complete Input orchestration completed successfully
+[2025-08-22 20:12:15] [INFO] [WebSocketApp] WebSocket disconnected: session_pk0l7fawr
+[2025-08-22 20:12:15] [INFO] [WebSocketApp] WebSocket disconnected: session_pk0l7fawr
+[2025-08-22 20:12:21] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:12:21] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:12:21] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:12:21] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:12:21] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:12:22] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:12:22] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:12:22] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:12:22] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:12:22] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:12:22] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:12:22] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:12:22] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:12:22] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:12:22] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:12:22] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:12:22] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:12:39] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:12:39] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:12:40] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:12:40] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:12:40] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:12:40] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:12:40] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:12:40] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:12:40] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:12:40] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:12:40] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:12:40] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:12:40] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:12:40] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:12:40] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:12:40] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:12:40] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:12:50] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:12:50] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:12:51] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:12:51] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:12:51] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:12:51] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:12:51] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:12:51] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:12:51] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:12:51] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:12:51] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:12:51] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:12:51] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:12:51] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:12:51] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:12:51] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:12:51] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:13:07] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:13:07] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:13:07] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:13:07] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:13:07] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:13:07] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:13:07] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:13:07] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:13:07] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:13:07] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:13:07] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:13:07] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:13:07] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:13:07] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:13:07] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:13:07] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:13:07] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:13:23] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:13:23] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:13:23] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:13:23] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:13:23] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:13:24] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:13:24] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:13:24] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:13:24] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:13:24] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:13:24] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:13:24] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:13:24] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:13:24] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:13:24] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:13:24] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:13:24] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:13:47] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:13:47] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:13:48] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:13:48] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:13:48] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:13:48] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:13:48] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:13:48] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:13:48] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:13:48] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:13:48] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:13:48] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:13:48] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:13:48] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:13:48] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:13:48] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:13:48] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:15:15] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:15:15] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:15:15] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:15:15] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:15:15] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:15:15] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:15:15] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:15:15] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:15:15] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:15:15] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:15:15] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:15:15] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:15:15] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:15:15] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:15:15] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:15:15] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:15:15] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:17:17] [INFO] [WebSocketApp] WebSocket connected: session_2n7i61t99
+[2025-08-22 20:17:26] [INFO] [WebSocketApp] WebSocket connected: session_2n7i61t99
+[2025-08-22 20:17:32] [INFO] [WebSocketApp] WebSocket disconnected: session_2n7i61t99
+[2025-08-22 20:17:32] [INFO] [WebSocketApp] WebSocket disconnected: session_2n7i61t99
+[2025-08-22 20:17:32] [INFO] [WebSocketApp] WebSocket disconnected: session_2n7i61t99
+[2025-08-22 20:17:32] [INFO] [WebSocketApp] WebSocket disconnected: session_2n7i61t99
+[2025-08-22 20:17:35] [INFO] [WebSocketApp] WebSocket connected: session_7e74yorg3
+[2025-08-22 20:17:52] [INFO] [EnhancedMainOrchestrator] Starting Complete Input orchestration
+[2025-08-22 20:17:52] [DEBUG] [EnhancedMainOrchestrator] Performing comprehensive task analysis
+[2025-08-22 20:17:53] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 20:17:53] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 20:17:53] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 20:17:53] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 20:17:53] [DEBUG] [EnhancedMainOrchestrator] Advanced RAG score: 0.440 (L'=0.133, E'=1.000, D=0.000, S'=0.750)
+[2025-08-22 20:17:53] [DEBUG] [EnhancedMainOrchestrator] Graph RAG score: 0.200 (ρ'=0.000, δ'=0.500, I=0.0)
+[2025-08-22 20:17:53] [INFO] [PromptBuilderAgent] Starting Complete Input building process
+[2025-08-22 20:17:53] [DEBUG] [PromptBuilderAgent] Checking input completeness
+[2025-08-22 20:17:53] [INFO] [PromptBuilderAgent] CP and ATP not provided, generation required
+[2025-08-22 20:17:53] [INFO] [PromptBuilderAgent] Starting CP/ATP generation
+[2025-08-22 20:17:54] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 20:17:54] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 20:17:54] [INFO] [OnlineSearchService] Searching online for: CP Matematika kelas 1 Penjumlahan kurikulum pendidikan Indonesia
+[2025-08-22 20:17:57] [INFO] [OnlineSearchService] Found 1 relevant results
+[2025-08-22 20:17:58] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 20:17:58] [DEBUG] [VectorDBService] Found 0 documents for query in atp
+[2025-08-22 20:17:58] [INFO] [OnlineSearchService] Searching online for: ATP Matematika kelas 1 Penjumlahan kurikulum pendidikan Indonesia
+[2025-08-22 20:17:59] [WARNING] [OnlineSearchService] Failed to fetch https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-a/: 403 Client Error: Forbidden for url: https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-a/
+[2025-08-22 20:17:59] [WARNING] [OnlineSearchService] Failed to fetch https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/: 403 Client Error: Forbidden for url: https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/
+[2025-08-22 20:18:02] [INFO] [OnlineSearchService] Found 1 relevant results
+[2025-08-22 20:18:06] [DEBUG] [LLMService] Text generated successfully using gemini
+[2025-08-22 20:18:13] [DEBUG] [LLMService] Text generated successfully using gemini
+[2025-08-22 20:18:13] [INFO] [PromptBuilderAgent] SUCCESS: CP/ATP generation completed
+[2025-08-22 20:18:13] [INFO] [PromptBuilderAgent] SUCCESS: Complete Input building process completed
+[2025-08-22 20:18:13] [WARNING] [EnhancedMainOrchestrator] Quality check failed, attempting re-routing to Adaptive RAG
+[2025-08-22 20:18:13] [INFO] [EnhancedMainOrchestrator] SUCCESS: Complete Input orchestration completed successfully
+[2025-08-22 20:20:53] [INFO] [WebSocketApp] WebSocket disconnected: session_7e74yorg3
+[2025-08-22 20:20:53] [INFO] [WebSocketApp] WebSocket disconnected: session_7e74yorg3
+[2025-08-22 20:20:59] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:20:59] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:21:00] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:21:00] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:21:00] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:21:00] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:21:00] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:21:00] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:21:00] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:21:00] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:21:00] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:21:00] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:21:00] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:21:00] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:21:00] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:21:00] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:21:00] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:21:14] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:21:14] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:21:15] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:21:15] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:21:15] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:21:15] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:21:15] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:21:15] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:21:15] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:21:15] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:21:15] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:21:15] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:21:15] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:21:15] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:21:15] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:21:15] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:21:15] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:21:39] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:21:39] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:21:39] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:21:39] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:21:39] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:21:39] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:21:39] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:21:39] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:21:39] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:21:39] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:21:39] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:21:39] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:21:39] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:21:39] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:21:39] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:21:39] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:21:39] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:22:03] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:22:03] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:22:04] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:22:04] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:22:04] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:22:04] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:22:04] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:22:04] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:22:04] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:22:04] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:22:04] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:22:04] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:22:04] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:22:04] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:22:04] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:22:04] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:22:04] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:22:22] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:22:22] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:22:23] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:22:23] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:22:23] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:22:23] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:22:23] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:22:23] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:22:23] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:22:23] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:22:23] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:22:23] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:22:23] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:22:23] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:22:23] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:22:23] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:22:23] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:22:52] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:22:52] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:22:52] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:22:52] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:22:52] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:22:53] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:22:53] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:22:53] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:22:53] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:22:53] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:22:53] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:22:53] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:22:53] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:22:53] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:22:53] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:22:53] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:22:53] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:23:16] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:23:16] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:23:16] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:23:16] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:23:16] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:23:17] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:23:17] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:23:17] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:23:17] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:23:17] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:23:17] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:23:17] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:23:17] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:23:17] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:23:17] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:23:17] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:23:17] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:23:40] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:23:40] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:23:41] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:23:41] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:23:41] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:23:41] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:23:41] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:23:41] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:23:41] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:23:41] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:23:41] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:23:41] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:23:41] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:23:41] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:23:41] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:23:41] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:23:41] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:24:09] [INFO] [LLMService] Gemini provider initialized
+[2025-08-22 20:24:09] [INFO] [LLMService] SUCCESS: Gemini provider initialized successfully
+[2025-08-22 20:24:09] [INFO] [LLMService] OpenAI provider initialized
+[2025-08-22 20:24:09] [INFO] [LLMService] SUCCESS: OpenAI provider initialized successfully
+[2025-08-22 20:24:09] [INFO] [LLMService] LLM Service initialized
+[2025-08-22 20:24:09] [DEBUG] [VectorDBService] Collection 'curriculum_planning' initialized for cp
+[2025-08-22 20:24:09] [DEBUG] [VectorDBService] Collection 'learning_targets' initialized for atp
+[2025-08-22 20:24:09] [DEBUG] [VectorDBService] Collection 'teaching_modules' initialized for modul_ajar
+[2025-08-22 20:24:09] [DEBUG] [VectorDBService] Collection 'general_documents' initialized for general
+[2025-08-22 20:24:09] [INFO] [VectorDBService] SUCCESS: ChromaDB client initialized successfully
+[2025-08-22 20:24:09] [INFO] [VectorDBService] Vector DB Service initialized
+[2025-08-22 20:24:09] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:24:09] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:24:09] [INFO] [OnlineSearchService] SUCCESS: DuckDuckGo Search engine initialized
+[2025-08-22 20:24:09] [INFO] [OnlineSearchService] Online Search Service initialized
+[2025-08-22 20:24:09] [INFO] [PromptBuilderAgent] Prompt Builder Agent initialized
+[2025-08-22 20:24:09] [INFO] [EnhancedMainOrchestrator] Enhanced Main Orchestrator initialized with scoring system
+[2025-08-22 20:24:19] [INFO] [WebSocketApp] WebSocket connected: session_gbqoil9uj
+[2025-08-22 20:24:37] [INFO] [EnhancedMainOrchestrator] Starting Complete Input orchestration
+[2025-08-22 20:24:37] [DEBUG] [EnhancedMainOrchestrator] Performing comprehensive task analysis
+[2025-08-22 20:24:38] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 20:24:38] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 20:24:39] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 20:24:39] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 20:24:39] [DEBUG] [EnhancedMainOrchestrator] Advanced RAG score: 0.440 (L'=0.133, E'=1.000, D=0.000, S'=0.750)
+[2025-08-22 20:24:39] [DEBUG] [EnhancedMainOrchestrator] Graph RAG score: 0.200 (ρ'=0.000, δ'=0.500, I=0.0)
+[2025-08-22 20:24:39] [INFO] [PromptBuilderAgent] Starting Complete Input building process
+[2025-08-22 20:24:39] [DEBUG] [PromptBuilderAgent] Checking input completeness
+[2025-08-22 20:24:39] [INFO] [PromptBuilderAgent] CP and ATP not provided, generation required
+[2025-08-22 20:24:39] [INFO] [PromptBuilderAgent] Starting CP/ATP generation
+[2025-08-22 20:24:39] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 20:24:39] [DEBUG] [VectorDBService] Found 0 documents for query in cp
+[2025-08-22 20:24:39] [INFO] [OnlineSearchService] Searching online for: CP Matematika kelas 1 Penjumlahan kurikulum pendidikan Indonesia
+[2025-08-22 20:24:41] [WARNING] [OnlineSearchService] Failed to fetch https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-a/: 403 Client Error: Forbidden for url: https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-a/
+[2025-08-22 20:24:41] [INFO] [OnlineSearchService] Found 0 relevant results
+[2025-08-22 20:24:41] [DEBUG] [LLMService] Embedding generated successfully using gemini
+[2025-08-22 20:24:41] [DEBUG] [VectorDBService] Found 0 documents for query in atp
+[2025-08-22 20:24:41] [INFO] [OnlineSearchService] Searching online for: ATP Matematika kelas 1 Penjumlahan kurikulum pendidikan Indonesia
+[2025-08-22 20:24:42] [WARNING] [OnlineSearchService] Failed to fetch https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-a/: 403 Client Error: Forbidden for url: https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-a/
+[2025-08-22 20:24:42] [WARNING] [OnlineSearchService] Failed to fetch https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-b/: 403 Client Error: Forbidden for url: https://guru.kemdikbud.go.id/kurikulum/referensi-penerapan/capaian-pembelajaran/sd-sma/matematika/fase-b/
+[2025-08-22 20:24:42] [INFO] [OnlineSearchService] Found 0 relevant results
+[2025-08-22 20:24:46] [DEBUG] [LLMService] Text generated successfully using gemini
+[2025-08-22 20:24:52] [DEBUG] [LLMService] Text generated successfully using gemini
+[2025-08-22 20:24:52] [INFO] [PromptBuilderAgent] SUCCESS: CP/ATP generation completed
+[2025-08-22 20:24:52] [INFO] [PromptBuilderAgent] SUCCESS: Complete Input building process completed
+[2025-08-22 20:24:52] [WARNING] [EnhancedMainOrchestrator] Quality check failed, attempting re-routing to Adaptive RAG
+[2025-08-22 20:24:52] [INFO] [EnhancedMainOrchestrator] SUCCESS: Complete Input orchestration completed successfully
+[2025-08-22 20:26:23] [INFO] [WebSocketApp] WebSocket disconnected: session_gbqoil9uj
+[2025-08-22 20:26:23] [INFO] [WebSocketApp] WebSocket disconnected: session_gbqoil9uj

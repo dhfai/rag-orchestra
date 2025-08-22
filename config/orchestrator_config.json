@@ -1,0 +1,25 @@
+{
+  "thresholds": {
+    "simple_rag": 0.85,
+    "advanced_rag": 0.6,
+    "graph_rag": 0.5,
+    "overall_confidence": 0.8
+  },
+  "weights": {
+    "template_matching": {
+      "lambda_1": 0.8,
+      "lambda_2": 0.2
+    },
+    "advanced_rag": {
+      "alpha_1": 0.3,
+      "alpha_2": 0.25,
+      "alpha_3": 0.25,
+      "alpha_4": 0.2
+    },
+    "graph_rag": {
+      "beta_1": 0.4,
+      "beta_2": 0.4,
+      "beta_3": 0.2
+    }
+  }
+}
